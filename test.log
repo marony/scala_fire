@@ -1,0 +1,1321 @@
+-- Logs begin at Sat 2017-07-29 23:27:01 JST, end at Thu 2017-08-10 13:21:46 JST. --
+Aug 10 09:14:19 bugger2-linux kernel: PM: Syncing filesystems ... 
+Aug 10 10:07:06 bugger2-linux kernel: PM: done.
+Aug 10 10:07:06 bugger2-linux kernel: Freezing user space processes ... (elapsed 0.002 seconds) done.
+Aug 10 10:07:06 bugger2-linux kernel: OOM killer disabled.
+Aug 10 10:07:06 bugger2-linux kernel: PM: Marking nosave pages: [mem 0x00000000-0x00000fff]
+Aug 10 10:07:06 bugger2-linux kernel: PM: Marking nosave pages: [mem 0x00058000-0x00058fff]
+Aug 10 10:07:06 bugger2-linux kernel: PM: Marking nosave pages: [mem 0x0009e000-0x000fffff]
+Aug 10 10:07:06 bugger2-linux kernel: PM: Marking nosave pages: [mem 0xaa379000-0xabffefff]
+Aug 10 10:07:06 bugger2-linux kernel: PM: Marking nosave pages: [mem 0xac000000-0xffffffff]
+Aug 10 10:07:06 bugger2-linux kernel: PM: Basic memory bitmaps created
+Aug 10 10:07:06 bugger2-linux kernel: PM: Preallocating image memory... done (allocated 813316 pages)
+Aug 10 10:07:06 bugger2-linux kernel: PM: Allocated 3253264 kbytes in 2.71 seconds (1200.46 MB/s)
+Aug 10 10:07:06 bugger2-linux kernel: Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Aug 10 10:07:06 bugger2-linux kernel: Suspending console(s) (use no_console_suspend to debug)
+Aug 10 10:07:06 bugger2-linux kernel: PM: freeze of devices complete after 1247.008 msecs
+Aug 10 10:07:06 bugger2-linux kernel: PM: late freeze of devices complete after 16.130 msecs
+Aug 10 10:07:06 bugger2-linux kernel: PM: noirq freeze of devices complete after 1.139 msecs
+Aug 10 10:07:06 bugger2-linux kernel: ACPI: Preparing to enter system sleep state S4
+Aug 10 10:07:06 bugger2-linux kernel: ACPI : EC: event blocked
+Aug 10 10:07:06 bugger2-linux kernel: ACPI : EC: EC stopped
+Aug 10 10:07:06 bugger2-linux kernel: PM: Saving platform NVS memory
+Aug 10 10:07:06 bugger2-linux kernel: Disabling non-boot CPUs ...
+Aug 10 10:07:06 bugger2-linux kernel: smpboot: CPU 1 is now offline
+Aug 10 10:07:06 bugger2-linux kernel: smpboot: CPU 2 is now offline
+Aug 10 10:07:06 bugger2-linux kernel: smpboot: CPU 3 is now offline
+Aug 10 10:07:06 bugger2-linux kernel: PM: Creating hibernation image:
+Aug 10 10:07:06 bugger2-linux kernel: PM: Need to copy 811766 pages
+Aug 10 10:07:06 bugger2-linux kernel: PM: Normal pages needed: 811766 + 1024, available pages: 1260923
+Aug 10 10:07:06 bugger2-linux kernel: PM: Restoring platform NVS memory
+Aug 10 10:07:06 bugger2-linux kernel: ACPI : EC: EC started
+Aug 10 10:07:06 bugger2-linux kernel: Suspended for 3159.241 seconds
+Aug 10 10:07:06 bugger2-linux kernel: Enabling non-boot CPUs ...
+Aug 10 10:07:06 bugger2-linux kernel: x86: Booting SMP configuration:
+Aug 10 10:07:06 bugger2-linux kernel: smpboot: Booting Node 0 Processor 1 APIC 0x2
+Aug 10 10:07:06 bugger2-linux kernel:  cache: parent cpu1 should not be sleeping
+Aug 10 10:07:06 bugger2-linux kernel: CPU1 is up
+Aug 10 10:07:06 bugger2-linux kernel: smpboot: Booting Node 0 Processor 2 APIC 0x1
+Aug 10 10:07:06 bugger2-linux kernel:  cache: parent cpu2 should not be sleeping
+Aug 10 10:07:06 bugger2-linux kernel: CPU2 is up
+Aug 10 10:07:06 bugger2-linux kernel: smpboot: Booting Node 0 Processor 3 APIC 0x3
+Aug 10 10:07:06 bugger2-linux kernel:  cache: parent cpu3 should not be sleeping
+Aug 10 10:07:06 bugger2-linux kernel: CPU3 is up
+Aug 10 10:07:06 bugger2-linux kernel: ACPI: Waking up from system sleep state S4
+Aug 10 10:07:06 bugger2-linux kernel: PM: noirq restore of devices complete after 13.755 msecs
+Aug 10 10:07:06 bugger2-linux kernel: PM: early restore of devices complete after 33.488 msecs
+Aug 10 10:07:06 bugger2-linux kernel: usb usb1: root hub lost power or was reset
+Aug 10 10:07:06 bugger2-linux kernel: usb usb2: root hub lost power or was reset
+Aug 10 10:07:06 bugger2-linux kernel: ACPI : button: The lid device is not compliant to SW_LID.
+Aug 10 10:07:06 bugger2-linux kernel: ACPI : EC: event unblocked
+Aug 10 10:07:06 bugger2-linux kernel: rtc_cmos 00:01: System wakeup disabled by ACPI
+Aug 10 10:07:06 bugger2-linux kernel: sd 0:0:0:0: [sda] Starting disk
+Aug 10 10:07:06 bugger2-linux kernel: usb 2-4: Disable of device-initiated U1 failed.
+Aug 10 10:07:06 bugger2-linux kernel: usb 2-4: Disable of device-initiated U2 failed.
+Aug 10 10:07:06 bugger2-linux kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Aug 10 10:07:06 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 10:07:06 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 10:07:06 bugger2-linux kernel: ata1.00: configured for UDMA/133
+Aug 10 10:07:06 bugger2-linux kernel: usb 1-3: reset full-speed USB device number 2 using xhci_hcd
+Aug 10 10:07:06 bugger2-linux kernel: usb 1-7: reset high-speed USB device number 3 using xhci_hcd
+Aug 10 10:07:06 bugger2-linux kernel: usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+Aug 10 10:07:06 bugger2-linux kernel: usb 2-4: reset SuperSpeed USB device number 2 using xhci_hcd
+Aug 10 10:07:06 bugger2-linux kernel: PM: restore of devices complete after 2890.636 msecs
+Aug 10 10:07:06 bugger2-linux kernel: PM: Image restored successfully.
+Aug 10 10:07:06 bugger2-linux kernel: PM: Basic memory bitmaps freed
+Aug 10 10:07:06 bugger2-linux kernel: OOM killer enabled.
+Aug 10 10:07:06 bugger2-linux kernel: Restarting tasks ... 
+Aug 10 10:07:06 bugger2-linux kernel: pci_bus 0000:01: Allocating resources
+Aug 10 10:07:06 bugger2-linux kernel: pcieport 0000:00:1c.0: bridge window [io  0x1000-0x0fff] to [bus 01] add_size 1000
+Aug 10 10:07:06 bugger2-linux kernel: pcieport 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 01] add_size 200000 add_align 100000
+Aug 10 10:07:06 bugger2-linux kernel: pcieport 0000:00:1c.0: BAR 15: assigned [mem 0xaf300000-0xaf4fffff 64bit pref]
+Aug 10 10:07:06 bugger2-linux kernel: pcieport 0000:00:1c.0: BAR 13: assigned [io  0x2000-0x2fff]
+Aug 10 10:07:06 bugger2-linux kernel: pci_bus 0000:01: Allocating resources
+Aug 10 10:07:06 bugger2-linux kernel: done.
+Aug 10 10:07:06 bugger2-linux kernel: usb 1-6: USB disconnect, device number 5
+Aug 10 10:07:06 bugger2-linux kernel: pci_bus 0000:01: Allocating resources
+Aug 10 10:07:06 bugger2-linux kernel: mwifiex_pcie: try set_consistent_dma_mask(32)
+Aug 10 10:07:06 bugger2-linux kernel: mwifiex_pcie: PCI memory map Virt0: ffffb9fb42900000 PCI memory map Virt2: ffffb9fb43b00000
+Aug 10 10:07:06 bugger2-linux kernel: mwifiex: rx work enabled, cpus 4
+Aug 10 10:07:06 bugger2-linux systemd-sleep[12217]: System resumed.
+-- Subject: System sleep state hibernate left
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system has now left the hibernate sleep state.
+Aug 10 10:07:06 bugger2-linux systemd-sleep[12217]: Going to hibernate...
+Aug 10 10:07:06 bugger2-linux root[12325]: ACPI group/action undefined: jack/microphone / MICROPHONE
+Aug 10 10:07:06 bugger2-linux systemd[1]: Started Hibernate.
+-- Subject: Unit systemd-hibernate.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hibernate.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 10:07:06 bugger2-linux root[12332]: ACPI group/action undefined: jack/microphone / MICROPHONE
+Aug 10 10:07:06 bugger2-linux systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Aug 10 10:07:06 bugger2-linux systemd[1]: Stopped target Sleep.
+-- Subject: Unit sleep.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sleep.target has finished shutting down.
+Aug 10 10:07:06 bugger2-linux systemd[1]: hibernate.target: Bound to unit systemd-hibernate.service, but unit isn't active.
+Aug 10 10:07:06 bugger2-linux systemd[1]: Dependency failed for Hibernate.
+-- Subject: Unit hibernate.target has failed
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit hibernate.target has failed.
+-- 
+-- The result is dependency.
+Aug 10 10:07:06 bugger2-linux systemd[1]: hibernate.target: Job hibernate.target/start failed with result 'dependency'.
+Aug 10 10:07:06 bugger2-linux systemd-logind[243]: Operation 'sleep' finished.
+Aug 10 10:07:06 bugger2-linux NetworkManager[245]: <info>  [1502327226.2601] manager: wake requested (sleeping: yes  enabled: yes)
+Aug 10 10:07:06 bugger2-linux NetworkManager[245]: <info>  [1502327226.2602] manager: waking up...
+Aug 10 10:07:06 bugger2-linux NetworkManager[245]: <info>  [1502327226.2612] manager: NetworkManager state is now DISCONNECTED
+Aug 10 10:07:07 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: FW download over, size 820212 bytes
+Aug 10 10:07:07 bugger2-linux kernel:  sdb: sdb1
+Aug 10 10:07:08 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" lost interfaces: ("org.freedesktop.UDisks2.Partition", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Block")
+Aug 10 10:07:08 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" has new interfaces: ("org.freedesktop.UDisks2.Block", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Partition")
+Aug 10 10:07:08 bugger2-linux kernel: usb 1-6: new high-speed USB device number 6 using xhci_hcd
+Aug 10 10:07:08 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: WLAN FW is active
+Aug 10 10:07:08 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: CMD_RESP: cmd 0x242 error, result=0x2
+Aug 10 10:07:08 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: mwifiex_process_cmdresp: cmd 0x242 failed during        initialization
+Aug 10 10:07:08 bugger2-linux NetworkManager[245]: <info>  [1502327228.9008] rfkill3: found WiFi radio killswitch (at /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy1/rfkill3) (driver mwifiex_pcie)
+Aug 10 10:07:08 bugger2-linux NetworkManager[245]: <info>  [1502327228.9111] wifi-nl80211: (mlan0): using nl80211 for WiFi device control
+Aug 10 10:07:08 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: MWIFIEX VERSION: mwifiex 1.0 (15.68.7.p77) 
+Aug 10 10:07:08 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: driver_version = mwifiex 1.0 (15.68.7.p77) 
+Aug 10 10:07:08 bugger2-linux NetworkManager[245]: <info>  [1502327228.9118] device (mlan0): driver supports Access Point (AP) mode
+Aug 10 10:07:08 bugger2-linux NetworkManager[245]: <info>  [1502327228.9140] manager: (mlan0): new 802.11 WiFi device (/org/freedesktop/NetworkManager/Devices/3)
+Aug 10 10:07:08 bugger2-linux systemd-udevd[12354]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug 10 10:07:08 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0 wlan0: renamed from mlan0
+Aug 10 10:07:08 bugger2-linux NetworkManager[245]: <info>  [1502327228.9318] device (mlan0): interface index 3 renamed iface from 'mlan0' to 'wlan0'
+Aug 10 10:07:08 bugger2-linux NetworkManager[245]: <info>  [1502327228.9425] device (wlan0): state change: unmanaged -> unavailable (reason 'managed', internal state 'external')
+Aug 10 10:07:08 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 10:07:08 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 10:07:08 bugger2-linux lxqt-panel[396]: UdevQt: unhandled device action "move"
+Aug 10 10:07:08 bugger2-linux NetworkManager[245]: <info>  [1502327228.9480] device (wlan0): set-hw-addr: set MAC address to 2E:4D:62:9D:08:F3 (scanning)
+Aug 10 10:07:08 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 10:07:09 bugger2-linux NetworkManager[245]: <info>  [1502327229.0201] sup-iface[0x1cead40,wlan0]: supports 5 scan SSIDs
+Aug 10 10:07:09 bugger2-linux NetworkManager[245]: <info>  [1502327229.0209] device (wlan0): supplicant interface state: starting -> ready
+Aug 10 10:07:09 bugger2-linux NetworkManager[245]: <info>  [1502327229.0210] device (wlan0): state change: unavailable -> disconnected (reason 'supplicant-available', internal state 'managed')
+Aug 10 10:07:09 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1334] device (wlan0): supplicant interface state: ready -> inactive
+Aug 10 10:07:13 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: scan failed: -16
+Aug 10 10:07:13 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SCAN-FAILED ret=-16
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1395] policy: auto-activating connection 'AirMac Express'
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1401] device (wlan0): Activation: starting connection 'AirMac Express' (7601d611-d086-455e-9334-b65cf8e0d07c)
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1403] device (wlan0): state change: disconnected -> prepare (reason 'none', internal state 'managed')
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1405] manager: NetworkManager state is now CONNECTING
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1839] device (wlan0): set-hw-addr: reset MAC address to 4C:0B:BE:06:74:98 (preserve)
+Aug 10 10:07:13 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1915] device (wlan0): supplicant interface state: inactive -> disabled
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1921] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1924] device (wlan0): Activation: (wifi) access point 'AirMac Express' has security, but secrets are required.
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1925] device (wlan0): state change: config -> need-auth (reason 'none', internal state 'managed')
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1951] device (wlan0): supplicant interface state: disabled -> inactive
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1975] device (wlan0): state change: need-auth -> prepare (reason 'none', internal state 'managed')
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1979] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1981] device (wlan0): Activation: (wifi) connection 'AirMac Express' has security, and secrets exist.  No new secrets needed.
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1983] Config: added 'ssid' value 'AirMac Express'
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1983] Config: added 'scan_ssid' value '1'
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1984] Config: added 'key_mgmt' value 'WPA-PSK'
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1984] Config: added 'auth_alg' value 'OPEN'
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.1984] Config: added 'psk' value '<hidden>'
+Aug 10 10:07:13 bugger2-linux NetworkManager[245]: <info>  [1502327233.2103] device (wlan0): supplicant interface state: inactive -> scanning
+Aug 10 10:07:17 bugger2-linux wpa_supplicant[473]: wlan0: Trying to associate with 88:1f:a1:41:1e:90 (SSID='AirMac Express' freq=2462 MHz)
+Aug 10 10:07:17 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: trying to associate to 'AirMac Express' bssid 88:1f:a1:41:1e:90
+Aug 10 10:07:17 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: associated to bssid 88:1f:a1:41:1e:90 successfully
+Aug 10 10:07:17 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Aug 10 10:07:17 bugger2-linux wpa_supplicant[473]: wlan0: Associated with 88:1f:a1:41:1e:90
+Aug 10 10:07:17 bugger2-linux wpa_supplicant[473]: WMM AC: Missing IEs
+Aug 10 10:07:17 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Aug 10 10:07:17 bugger2-linux NetworkManager[245]: <info>  [1502327237.3964] device (wlan0): supplicant interface state: scanning -> associating
+Aug 10 10:07:17 bugger2-linux wpa_supplicant[473]: wlan0: WPA: Key negotiation completed with 88:1f:a1:41:1e:90 [PTK=CCMP GTK=CCMP]
+Aug 10 10:07:17 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-CONNECTED - Connection to 88:1f:a1:41:1e:90 completed [id=0 id_str=]
+Aug 10 10:07:17 bugger2-linux NetworkManager[245]: <info>  [1502327237.4038] device (wlan0): supplicant interface state: associating -> 4-way handshake
+Aug 10 10:07:17 bugger2-linux NetworkManager[245]: <info>  [1502327237.4077] device (wlan0): supplicant interface state: 4-way handshake -> completed
+Aug 10 10:07:17 bugger2-linux NetworkManager[245]: <info>  [1502327237.4077] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'AirMac Express'.
+Aug 10 10:07:17 bugger2-linux NetworkManager[245]: <info>  [1502327237.4078] device (wlan0): state change: config -> ip-config (reason 'none', internal state 'managed')
+Aug 10 10:07:17 bugger2-linux NetworkManager[245]: <info>  [1502327237.4102] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 10:07:17 bugger2-linux NetworkManager[245]: <info>  [1502327237.4155] dhcp4 (wlan0): dhclient started with pid 12368
+Aug 10 10:07:17 bugger2-linux dhclient[12368]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 10:07:19 bugger2-linux NetworkManager[245]: <info>  [1502327239.2694] dhcp6 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 10:07:19 bugger2-linux NetworkManager[245]: <warn>  [1502327239.2695] dhcp6 (wlan0): hostname is not a FQDN, it will be ignored
+Aug 10 10:07:19 bugger2-linux NetworkManager[245]: <info>  [1502327239.2727] dhcp6 (wlan0): dhclient started with pid 12379
+Aug 10 10:07:19 bugger2-linux dhclient[12379]: XMT: Info-Request on wlan0, interval 1080ms.
+Aug 10 10:07:21 bugger2-linux dhclient[12379]: XMT: Info-Request on wlan0, interval 2070ms.
+Aug 10 10:07:21 bugger2-linux dhclient[12379]: RCV: Reply message on wlan0 from fe80::5675:d0ff:fe89:9eca.
+Aug 10 10:07:21 bugger2-linux NetworkManager[245]: <info>  [1502327241.1128] dhcp6 (wlan0):   nameserver '2404:1a8:7f01:b::3'
+Aug 10 10:07:21 bugger2-linux NetworkManager[245]: <info>  [1502327241.1128] dhcp6 (wlan0):   nameserver '2404:1a8:7f01:a::3'
+Aug 10 10:07:21 bugger2-linux dbus[244]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 10 10:07:21 bugger2-linux NetworkManager[245]: <info>  [1502327241.1128] dhcp (wlan0):   domain search 'flets-east.jp.'
+Aug 10 10:07:21 bugger2-linux NetworkManager[245]: <info>  [1502327241.1128] dhcp (wlan0):   domain search 'iptvf.jp.'
+Aug 10 10:07:21 bugger2-linux NetworkManager[245]: <info>  [1502327241.1128] dhcp6 (wlan0): state changed unknown -> bound
+Aug 10 10:07:21 bugger2-linux NetworkManager[245]: <info>  [1502327241.1140] dhcp6 (wlan0): client pid 12379 exited with status 0
+Aug 10 10:07:21 bugger2-linux NetworkManager[245]: <info>  [1502327241.1140] dhcp6 (wlan0): state changed bound -> done
+Aug 10 10:07:21 bugger2-linux systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Aug 10 10:07:21 bugger2-linux dbus[244]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 10 10:07:21 bugger2-linux systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 10:07:21 bugger2-linux nm-dispatcher[12384]: req:1 'dhcp6-change' [wlan0]: new request (0 scripts)
+Aug 10 10:07:21 bugger2-linux nm-dispatcher[12384]: req:1 'dhcp6-change' [wlan0]: completed: no scripts
+Aug 10 10:07:22 bugger2-linux dhclient[12368]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 10:07:22 bugger2-linux dhclient[12368]: DHCPACK from 192.168.10.1
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7562] dhcp4 (wlan0):   address 192.168.10.105
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7563] dhcp4 (wlan0):   plen 24 (255.255.255.0)
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7563] dhcp4 (wlan0):   gateway 192.168.10.1
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7563] dhcp4 (wlan0):   lease time 86400
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7564] dhcp4 (wlan0):   nameserver '192.168.10.1'
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7564] dhcp4 (wlan0): state changed unknown -> bound
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7595] device (wlan0): state change: ip-config -> ip-check (reason 'none', internal state 'managed')
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7599] device (wlan0): state change: ip-check -> secondaries (reason 'none', internal state 'managed')
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7602] device (wlan0): state change: secondaries -> activated (reason 'none', internal state 'managed')
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7604] manager: NetworkManager state is now CONNECTED_LOCAL
+Aug 10 10:07:22 bugger2-linux dhclient[12368]: bound to 192.168.10.105 -- renewal in 32902 seconds.
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7804] manager: NetworkManager state is now CONNECTED_GLOBAL
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7810] policy: set 'AirMac Express' (wlan0) as default for IPv4 routing and DNS
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7811] policy: set 'AirMac Express' (wlan0) as default for IPv6 routing and DNS
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.7824] dns-mgr: Writing DNS information to /usr/bin/resolvconf
+Aug 10 10:07:22 bugger2-linux NetworkManager[245]: <info>  [1502327242.8306] device (wlan0): Activation: successful, device activated.
+Aug 10 10:07:22 bugger2-linux nm-dispatcher[12384]: req:2 'up' [wlan0]: new request (0 scripts)
+Aug 10 10:07:22 bugger2-linux nm-dispatcher[12384]: req:2 'up' [wlan0]: completed: no scripts
+Aug 10 10:07:24 bugger2-linux nm-dispatcher[12384]: req:3 'connectivity-change': new request (0 scripts)
+Aug 10 10:07:24 bugger2-linux nm-dispatcher[12384]: req:3 'connectivity-change': completed: no scripts
+Aug 10 10:15:48 bugger2-linux systemd-timesyncd[239]: Timed out waiting for reply from 210.173.160.27:123 (ntp1.jst.mfeed.ad.jp).
+Aug 10 10:15:49 bugger2-linux systemd-timesyncd[239]: Synchronized to time server 210.173.160.57:123 (ntp2.jst.mfeed.ad.jp).
+Aug 10 10:24:03 bugger2-linux sudo[12586]:     tada : TTY=pts/3 ; PWD=/home/tada ; USER=root ; COMMAND=/usr/bin/systemctl hibernate
+Aug 10 10:24:03 bugger2-linux sudo[12586]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.6592] manager: sleep requested (sleeping: no  enabled: yes)
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.6592] manager: sleeping...
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.6593] manager: NetworkManager state is now ASLEEP
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.6597] device (wlan0): state change: activated -> deactivating (reason 'sleeping', internal state 'managed')
+Aug 10 10:24:03 bugger2-linux sudo[12586]: pam_unix(sudo:session): session closed for user root
+Aug 10 10:24:03 bugger2-linux dbus[244]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.6649] device (wlan0): state change: deactivating -> disconnected (reason 'sleeping', internal state 'managed')
+Aug 10 10:24:03 bugger2-linux systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Aug 10 10:24:03 bugger2-linux dbus[244]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 10 10:24:03 bugger2-linux systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 10:24:03 bugger2-linux nm-dispatcher[12589]: req:1 'connectivity-change': new request (0 scripts)
+Aug 10 10:24:03 bugger2-linux nm-dispatcher[12589]: req:1 'connectivity-change': completed: no scripts
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.6975] dhcp4 (wlan0): canceled DHCP transaction, DHCP client pid 12368
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.6976] dhcp4 (wlan0): state changed bound -> done
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.6978] dhcp6 (wlan0): canceled DHCP transaction
+Aug 10 10:24:03 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: successfully disconnected from 88:1f:a1:41:1e:90: reason code 3
+Aug 10 10:24:03 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-DISCONNECTED bssid=88:1f:a1:41:1e:90 reason=3 locally_generated=1
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.7055] device (wlan0): set-hw-addr: set MAC address to 4E:84:5A:D1:DA:C0 (scanning)
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.7083] dns-mgr: Writing DNS information to /usr/bin/resolvconf
+Aug 10 10:24:03 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.7430] dns-mgr: Removing DNS information from /usr/bin/resolvconf
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <warn>  [1502328243.7716] sup-iface[0x1cead40,wlan0]: connection disconnected (reason -3)
+Aug 10 10:24:03 bugger2-linux nm-dispatcher[12589]: req:2 'down' [wlan0]: new request (0 scripts)
+Aug 10 10:24:03 bugger2-linux nm-dispatcher[12589]: req:2 'down' [wlan0]: completed: no scripts
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.7723] device (wlan0): supplicant interface state: completed -> disconnected
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.7731] device (wlan0): state change: disconnected -> unmanaged (reason 'sleeping', internal state 'managed')
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.8254] device (wlan0): set-hw-addr: reset MAC address to 4C:0B:BE:06:74:98 (unmanage)
+Aug 10 10:24:03 bugger2-linux systemd[1]: Reached target Sleep.
+-- Subject: Unit sleep.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sleep.target has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 10:24:03 bugger2-linux systemd[1]: Starting Hibernate...
+-- Subject: Unit systemd-hibernate.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hibernate.service has begun starting up.
+Aug 10 10:24:03 bugger2-linux kernel: PM: Hibernation mode set to 'platform'
+Aug 10 10:24:03 bugger2-linux systemd-sleep[12667]: Waking up from hibernate...
+Aug 10 10:24:03 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: shutdown mwifiex...
+Aug 10 10:24:03 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: PREP_CMD: card is removed
+Aug 10 10:24:03 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: PREP_CMD: card is removed
+Aug 10 10:24:03 bugger2-linux wpa_supplicant[473]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Aug 10 10:24:03 bugger2-linux systemd[1]: Starting Load/Save RF Kill Switch Status...
+-- Subject: Unit systemd-rfkill.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.service has begun starting up.
+Aug 10 10:24:03 bugger2-linux NetworkManager[245]: <info>  [1502328243.8869] radio killswitch /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy1/rfkill3 disappeared
+Aug 10 10:24:03 bugger2-linux systemd[1]: Started Load/Save RF Kill Switch Status.
+-- Subject: Unit systemd-rfkill.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 10:24:03 bugger2-linux systemd-sleep[12667]: Suspending system...
+-- Subject: System sleep state hibernate entered
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system has now entered the hibernate sleep state.
+Aug 10 10:24:03 bugger2-linux kernel: PM: Syncing filesystems ... 
+Aug 10 13:18:20 bugger2-linux kernel: PM: done.
+Aug 10 13:18:20 bugger2-linux kernel: Freezing user space processes ... (elapsed 0.002 seconds) done.
+Aug 10 13:18:20 bugger2-linux kernel: OOM killer disabled.
+Aug 10 13:18:20 bugger2-linux kernel: PM: Marking nosave pages: [mem 0x00000000-0x00000fff]
+Aug 10 13:18:20 bugger2-linux kernel: PM: Marking nosave pages: [mem 0x00058000-0x00058fff]
+Aug 10 13:18:20 bugger2-linux kernel: PM: Marking nosave pages: [mem 0x0009e000-0x000fffff]
+Aug 10 13:18:20 bugger2-linux kernel: PM: Marking nosave pages: [mem 0xaa379000-0xabffefff]
+Aug 10 13:18:20 bugger2-linux kernel: PM: Marking nosave pages: [mem 0xac000000-0xffffffff]
+Aug 10 13:18:20 bugger2-linux kernel: PM: Basic memory bitmaps created
+Aug 10 13:18:20 bugger2-linux kernel: PM: Preallocating image memory... done (allocated 808098 pages)
+Aug 10 13:18:20 bugger2-linux kernel: PM: Allocated 3232392 kbytes in 2.19 seconds (1475.97 MB/s)
+Aug 10 13:18:20 bugger2-linux kernel: Freezing remaining freezable tasks ... (elapsed 0.006 seconds) done.
+Aug 10 13:18:20 bugger2-linux kernel: Suspending console(s) (use no_console_suspend to debug)
+Aug 10 13:18:20 bugger2-linux kernel: PM: freeze of devices complete after 1256.082 msecs
+Aug 10 13:18:20 bugger2-linux kernel: PM: late freeze of devices complete after 16.337 msecs
+Aug 10 13:18:20 bugger2-linux kernel: PM: noirq freeze of devices complete after 1.104 msecs
+Aug 10 13:18:20 bugger2-linux kernel: ACPI: Preparing to enter system sleep state S4
+Aug 10 13:18:20 bugger2-linux kernel: ACPI : EC: event blocked
+Aug 10 13:18:20 bugger2-linux kernel: ACPI : EC: EC stopped
+Aug 10 13:18:20 bugger2-linux kernel: PM: Saving platform NVS memory
+Aug 10 13:18:20 bugger2-linux kernel: Disabling non-boot CPUs ...
+Aug 10 13:18:20 bugger2-linux kernel: smpboot: CPU 1 is now offline
+Aug 10 13:18:20 bugger2-linux kernel: smpboot: CPU 2 is now offline
+Aug 10 13:18:20 bugger2-linux kernel: smpboot: CPU 3 is now offline
+Aug 10 13:18:20 bugger2-linux kernel: PM: Creating hibernation image:
+Aug 10 13:18:20 bugger2-linux kernel: PM: Need to copy 805916 pages
+Aug 10 13:18:20 bugger2-linux kernel: PM: Normal pages needed: 805916 + 1024, available pages: 1266742
+Aug 10 13:18:20 bugger2-linux kernel: PM: Restoring platform NVS memory
+Aug 10 13:18:20 bugger2-linux kernel: ACPI : EC: EC started
+Aug 10 13:18:20 bugger2-linux kernel: Suspended for 10449.319 seconds
+Aug 10 13:18:20 bugger2-linux kernel: Enabling non-boot CPUs ...
+Aug 10 13:18:20 bugger2-linux kernel: x86: Booting SMP configuration:
+Aug 10 13:18:20 bugger2-linux kernel: smpboot: Booting Node 0 Processor 1 APIC 0x2
+Aug 10 13:18:20 bugger2-linux kernel:  cache: parent cpu1 should not be sleeping
+Aug 10 13:18:20 bugger2-linux kernel: CPU1 is up
+Aug 10 13:18:20 bugger2-linux kernel: smpboot: Booting Node 0 Processor 2 APIC 0x1
+Aug 10 13:18:20 bugger2-linux kernel:  cache: parent cpu2 should not be sleeping
+Aug 10 13:18:20 bugger2-linux kernel: CPU2 is up
+Aug 10 13:18:20 bugger2-linux kernel: smpboot: Booting Node 0 Processor 3 APIC 0x3
+Aug 10 13:18:20 bugger2-linux kernel:  cache: parent cpu3 should not be sleeping
+Aug 10 13:18:20 bugger2-linux kernel: CPU3 is up
+Aug 10 13:18:20 bugger2-linux kernel: ACPI: Waking up from system sleep state S4
+Aug 10 13:18:20 bugger2-linux kernel: PM: noirq restore of devices complete after 13.521 msecs
+Aug 10 13:18:20 bugger2-linux kernel: PM: early restore of devices complete after 33.402 msecs
+Aug 10 13:18:20 bugger2-linux kernel: usb usb1: root hub lost power or was reset
+Aug 10 13:18:20 bugger2-linux kernel: usb usb2: root hub lost power or was reset
+Aug 10 13:18:20 bugger2-linux kernel: ACPI : EC: event unblocked
+Aug 10 13:18:20 bugger2-linux kernel: rtc_cmos 00:01: System wakeup disabled by ACPI
+Aug 10 13:18:20 bugger2-linux kernel: sd 0:0:0:0: [sda] Starting disk
+Aug 10 13:18:20 bugger2-linux kernel: usb 2-4: Disable of device-initiated U1 failed.
+Aug 10 13:18:20 bugger2-linux kernel: usb 2-4: Disable of device-initiated U2 failed.
+Aug 10 13:18:20 bugger2-linux kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Aug 10 13:18:20 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 13:18:20 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 13:18:20 bugger2-linux kernel: ata1.00: configured for UDMA/133
+Aug 10 13:18:20 bugger2-linux kernel: usb 2-4: reset SuperSpeed USB device number 2 using xhci_hcd
+Aug 10 13:18:20 bugger2-linux kernel: usb 1-3: reset full-speed USB device number 2 using xhci_hcd
+Aug 10 13:18:20 bugger2-linux kernel: usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+Aug 10 13:18:20 bugger2-linux kernel: usb 1-7: reset high-speed USB device number 3 using xhci_hcd
+Aug 10 13:18:20 bugger2-linux kernel: PM: restore of devices complete after 2891.647 msecs
+Aug 10 13:18:20 bugger2-linux kernel: PM: Image restored successfully.
+Aug 10 13:18:20 bugger2-linux kernel: PM: Basic memory bitmaps freed
+Aug 10 13:18:20 bugger2-linux kernel: OOM killer enabled.
+Aug 10 13:18:20 bugger2-linux kernel: Restarting tasks ... 
+Aug 10 13:18:20 bugger2-linux kernel: pci_bus 0000:01: Allocating resources
+Aug 10 13:18:20 bugger2-linux kernel: pci_bus 0000:01: Allocating resources
+Aug 10 13:18:20 bugger2-linux kernel: pci_bus 0000:01: Allocating resources
+Aug 10 13:18:20 bugger2-linux kernel: done.
+Aug 10 13:18:20 bugger2-linux kernel: usb 1-6: USB disconnect, device number 6
+Aug 10 13:18:20 bugger2-linux kernel: mwifiex_pcie: try set_consistent_dma_mask(32)
+Aug 10 13:18:20 bugger2-linux kernel: mwifiex_pcie: PCI memory map Virt0: ffffb9fb42900000 PCI memory map Virt2: ffffb9fb43b00000
+Aug 10 13:18:20 bugger2-linux kernel: mwifiex: rx work enabled, cpus 4
+Aug 10 13:18:20 bugger2-linux systemd-logind[243]: Lid closed.
+Aug 10 13:18:20 bugger2-linux systemd-sleep[12667]: Going to hibernate...
+Aug 10 13:18:20 bugger2-linux root[12766]: LID closed
+Aug 10 13:18:20 bugger2-linux systemd-sleep[12667]: System resumed.
+-- Subject: System sleep state hibernate left
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system has now left the hibernate sleep state.
+Aug 10 13:18:20 bugger2-linux root[12773]: ACPI group/action undefined: jack/microphone / MICROPHONE
+Aug 10 13:18:20 bugger2-linux systemd[1]: Started Hibernate.
+-- Subject: Unit systemd-hibernate.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hibernate.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:18:20 bugger2-linux root[12775]: ACPI group/action undefined: jack/microphone / MICROPHONE
+Aug 10 13:18:20 bugger2-linux systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Aug 10 13:18:20 bugger2-linux systemd[1]: Stopped target Sleep.
+-- Subject: Unit sleep.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sleep.target has finished shutting down.
+Aug 10 13:18:20 bugger2-linux systemd[1]: hibernate.target: Bound to unit systemd-hibernate.service, but unit isn't active.
+Aug 10 13:18:20 bugger2-linux systemd[1]: Dependency failed for Hibernate.
+-- Subject: Unit hibernate.target has failed
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit hibernate.target has failed.
+-- 
+-- The result is dependency.
+Aug 10 13:18:20 bugger2-linux systemd[1]: hibernate.target: Job hibernate.target/start failed with result 'dependency'.
+Aug 10 13:18:20 bugger2-linux systemd-logind[243]: Operation 'sleep' finished.
+Aug 10 13:18:20 bugger2-linux NetworkManager[245]: <info>  [1502338700.2549] manager: wake requested (sleeping: yes  enabled: yes)
+Aug 10 13:18:20 bugger2-linux NetworkManager[245]: <info>  [1502338700.2549] manager: waking up...
+Aug 10 13:18:20 bugger2-linux NetworkManager[245]: <info>  [1502338700.2564] manager: NetworkManager state is now DISCONNECTED
+Aug 10 13:18:21 bugger2-linux kernel:  sdb: sdb1
+Aug 10 13:18:21 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" lost interfaces: ("org.freedesktop.UDisks2.Partition", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Block")
+Aug 10 13:18:21 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" has new interfaces: ("org.freedesktop.UDisks2.Block", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Partition")
+Aug 10 13:18:21 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: FW download over, size 820212 bytes
+Aug 10 13:18:22 bugger2-linux kernel: usb 1-6: new high-speed USB device number 7 using xhci_hcd
+Aug 10 13:18:22 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: WLAN FW is active
+Aug 10 13:18:22 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: CMD_RESP: cmd 0x242 error, result=0x2
+Aug 10 13:18:22 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: mwifiex_process_cmdresp: cmd 0x242 failed during        initialization
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.8616] rfkill5: found WiFi radio killswitch (at /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy2/rfkill5) (driver mwifiex_pcie)
+Aug 10 13:18:22 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: MWIFIEX VERSION: mwifiex 1.0 (15.68.7.p77) 
+Aug 10 13:18:22 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: driver_version = mwifiex 1.0 (15.68.7.p77) 
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.8756] wifi-nl80211: (mlan0): using nl80211 for WiFi device control
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.8764] device (mlan0): driver supports Access Point (AP) mode
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.8781] manager: (mlan0): new 802.11 WiFi device (/org/freedesktop/NetworkManager/Devices/4)
+Aug 10 13:18:22 bugger2-linux systemd-udevd[12798]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug 10 13:18:22 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0 wlan0: renamed from mlan0
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.8985] device (mlan0): interface index 4 renamed iface from 'mlan0' to 'wlan0'
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.9111] device (wlan0): state change: unmanaged -> unavailable (reason 'managed', internal state 'external')
+Aug 10 13:18:22 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:18:22 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:18:22 bugger2-linux lxqt-panel[396]: UdevQt: unhandled device action "move"
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.9165] device (wlan0): set-hw-addr: set MAC address to EA:20:70:44:20:E9 (scanning)
+Aug 10 13:18:22 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.9831] sup-iface[0x1ceaca0,wlan0]: supports 5 scan SSIDs
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.9842] device (wlan0): supplicant interface state: starting -> ready
+Aug 10 13:18:22 bugger2-linux NetworkManager[245]: <info>  [1502338702.9843] device (wlan0): state change: unavailable -> disconnected (reason 'supplicant-available', internal state 'managed')
+Aug 10 13:18:22 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.0983] device (wlan0): supplicant interface state: ready -> inactive
+Aug 10 13:18:27 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SCAN-FAILED ret=-16
+Aug 10 13:18:27 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: scan failed: -16
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1034] policy: auto-activating connection 'AirMac Express'
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1042] device (wlan0): Activation: starting connection 'AirMac Express' (7601d611-d086-455e-9334-b65cf8e0d07c)
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1044] device (wlan0): state change: disconnected -> prepare (reason 'none', internal state 'managed')
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1046] manager: NetworkManager state is now CONNECTING
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1478] device (wlan0): set-hw-addr: reset MAC address to 4C:0B:BE:06:74:98 (preserve)
+Aug 10 13:18:27 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1561] device (wlan0): supplicant interface state: inactive -> disabled
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1569] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1573] device (wlan0): Activation: (wifi) access point 'AirMac Express' has security, but secrets are required.
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1573] device (wlan0): state change: config -> need-auth (reason 'none', internal state 'managed')
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1615] device (wlan0): supplicant interface state: disabled -> inactive
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1626] device (wlan0): state change: need-auth -> prepare (reason 'none', internal state 'managed')
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1629] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1630] device (wlan0): Activation: (wifi) connection 'AirMac Express' has security, and secrets exist.  No new secrets needed.
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1632] Config: added 'ssid' value 'AirMac Express'
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1632] Config: added 'scan_ssid' value '1'
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1632] Config: added 'key_mgmt' value 'WPA-PSK'
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1633] Config: added 'auth_alg' value 'OPEN'
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1633] Config: added 'psk' value '<hidden>'
+Aug 10 13:18:27 bugger2-linux NetworkManager[245]: <info>  [1502338707.1744] device (wlan0): supplicant interface state: inactive -> scanning
+Aug 10 13:18:31 bugger2-linux wpa_supplicant[473]: wlan0: Trying to associate with 88:1f:a1:41:1e:90 (SSID='AirMac Express' freq=2462 MHz)
+Aug 10 13:18:31 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: trying to associate to 'AirMac Express' bssid 88:1f:a1:41:1e:90
+Aug 10 13:18:31 bugger2-linux NetworkManager[245]: <info>  [1502338711.3639] device (wlan0): supplicant interface state: scanning -> associating
+Aug 10 13:18:31 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: associated to bssid 88:1f:a1:41:1e:90 successfully
+Aug 10 13:18:31 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Aug 10 13:18:31 bugger2-linux wpa_supplicant[473]: wlan0: Associated with 88:1f:a1:41:1e:90
+Aug 10 13:18:31 bugger2-linux wpa_supplicant[473]: WMM AC: Missing IEs
+Aug 10 13:18:31 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Aug 10 13:18:31 bugger2-linux wpa_supplicant[473]: wlan0: WPA: Key negotiation completed with 88:1f:a1:41:1e:90 [PTK=CCMP GTK=CCMP]
+Aug 10 13:18:31 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-CONNECTED - Connection to 88:1f:a1:41:1e:90 completed [id=0 id_str=]
+Aug 10 13:18:31 bugger2-linux NetworkManager[245]: <info>  [1502338711.3714] device (wlan0): supplicant interface state: associating -> completed
+Aug 10 13:18:31 bugger2-linux NetworkManager[245]: <info>  [1502338711.3714] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'AirMac Express'.
+Aug 10 13:18:31 bugger2-linux NetworkManager[245]: <info>  [1502338711.3719] device (wlan0): state change: config -> ip-config (reason 'none', internal state 'managed')
+Aug 10 13:18:31 bugger2-linux NetworkManager[245]: <info>  [1502338711.3737] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 13:18:31 bugger2-linux NetworkManager[245]: <info>  [1502338711.3778] dhcp4 (wlan0): dhclient started with pid 12813
+Aug 10 13:18:31 bugger2-linux dhclient[12813]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 13:18:33 bugger2-linux NetworkManager[245]: <info>  [1502338713.1892] dhcp6 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 13:18:33 bugger2-linux NetworkManager[245]: <warn>  [1502338713.1892] dhcp6 (wlan0): hostname is not a FQDN, it will be ignored
+Aug 10 13:18:33 bugger2-linux NetworkManager[245]: <info>  [1502338713.1912] dhcp6 (wlan0): dhclient started with pid 12896
+Aug 10 13:18:33 bugger2-linux dhclient[12896]: XMT: Info-Request on wlan0, interval 990ms.
+Aug 10 13:18:34 bugger2-linux dhclient[12896]: XMT: Info-Request on wlan0, interval 1960ms.
+Aug 10 13:18:35 bugger2-linux dhclient[12896]: RCV: Reply message on wlan0 from fe80::5675:d0ff:fe89:9eca.
+Aug 10 13:18:35 bugger2-linux NetworkManager[245]: <info>  [1502338715.0386] dhcp6 (wlan0):   nameserver '2404:1a8:7f01:b::3'
+Aug 10 13:18:35 bugger2-linux NetworkManager[245]: <info>  [1502338715.0386] dhcp6 (wlan0):   nameserver '2404:1a8:7f01:a::3'
+Aug 10 13:18:35 bugger2-linux NetworkManager[245]: <info>  [1502338715.0386] dhcp (wlan0):   domain search 'flets-east.jp.'
+Aug 10 13:18:35 bugger2-linux NetworkManager[245]: <info>  [1502338715.0386] dhcp (wlan0):   domain search 'iptvf.jp.'
+Aug 10 13:18:35 bugger2-linux NetworkManager[245]: <info>  [1502338715.0386] dhcp6 (wlan0): state changed unknown -> bound
+Aug 10 13:18:35 bugger2-linux dbus[244]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 10 13:18:35 bugger2-linux NetworkManager[245]: <info>  [1502338715.0448] dhcp6 (wlan0): client pid 12896 exited with status 0
+Aug 10 13:18:35 bugger2-linux NetworkManager[245]: <info>  [1502338715.0448] dhcp6 (wlan0): state changed bound -> done
+Aug 10 13:18:35 bugger2-linux systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Aug 10 13:18:35 bugger2-linux dbus[244]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 10 13:18:35 bugger2-linux systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:18:35 bugger2-linux nm-dispatcher[12905]: req:1 'dhcp6-change' [wlan0]: new request (0 scripts)
+Aug 10 13:18:35 bugger2-linux nm-dispatcher[12905]: req:1 'dhcp6-change' [wlan0]: completed: no scripts
+Aug 10 13:18:38 bugger2-linux dhclient[12813]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 13:18:38 bugger2-linux dhclient[12813]: DHCPACK from 192.168.10.1
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8222] dhcp4 (wlan0):   address 192.168.10.105
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8223] dhcp4 (wlan0):   plen 24 (255.255.255.0)
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8223] dhcp4 (wlan0):   gateway 192.168.10.1
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8223] dhcp4 (wlan0):   lease time 86400
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8223] dhcp4 (wlan0):   nameserver '192.168.10.1'
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8223] dhcp4 (wlan0): state changed unknown -> bound
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8235] device (wlan0): state change: ip-config -> ip-check (reason 'none', internal state 'managed')
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8239] device (wlan0): state change: ip-check -> secondaries (reason 'none', internal state 'managed')
+Aug 10 13:18:38 bugger2-linux dhclient[12813]: bound to 192.168.10.105 -- renewal in 34087 seconds.
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8243] device (wlan0): state change: secondaries -> activated (reason 'none', internal state 'managed')
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8245] manager: NetworkManager state is now CONNECTED_LOCAL
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8475] manager: NetworkManager state is now CONNECTED_GLOBAL
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8476] policy: set 'AirMac Express' (wlan0) as default for IPv4 routing and DNS
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8476] policy: set 'AirMac Express' (wlan0) as default for IPv6 routing and DNS
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8491] dns-mgr: Writing DNS information to /usr/bin/resolvconf
+Aug 10 13:18:38 bugger2-linux NetworkManager[245]: <info>  [1502338718.8958] device (wlan0): Activation: successful, device activated.
+Aug 10 13:18:38 bugger2-linux nm-dispatcher[12905]: req:2 'up' [wlan0]: new request (0 scripts)
+Aug 10 13:18:38 bugger2-linux nm-dispatcher[12905]: req:2 'up' [wlan0]: completed: no scripts
+Aug 10 13:18:40 bugger2-linux nm-dispatcher[12905]: req:3 'connectivity-change': new request (0 scripts)
+Aug 10 13:18:40 bugger2-linux nm-dispatcher[12905]: req:3 'connectivity-change': completed: no scripts
+Aug 10 13:18:43 bugger2-linux systemd-logind[243]: Suspending...
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.2687] manager: sleep requested (sleeping: no  enabled: yes)
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.2687] manager: sleeping...
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.2689] manager: NetworkManager state is now ASLEEP
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.2694] device (wlan0): state change: activated -> deactivating (reason 'sleeping', internal state 'managed')
+Aug 10 13:18:43 bugger2-linux nm-dispatcher[12905]: req:4 'connectivity-change': new request (0 scripts)
+Aug 10 13:18:43 bugger2-linux nm-dispatcher[12905]: req:4 'connectivity-change': completed: no scripts
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.2749] device (wlan0): state change: deactivating -> disconnected (reason 'sleeping', internal state 'managed')
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.3073] dhcp4 (wlan0): canceled DHCP transaction, DHCP client pid 12813
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.3074] dhcp4 (wlan0): state changed bound -> done
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.3076] dhcp6 (wlan0): canceled DHCP transaction
+Aug 10 13:18:43 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-DISCONNECTED bssid=88:1f:a1:41:1e:90 reason=3 locally_generated=1
+Aug 10 13:18:43 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: successfully disconnected from 88:1f:a1:41:1e:90: reason code 3
+Aug 10 13:18:43 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.3177] device (wlan0): set-hw-addr: set MAC address to DA:C0:7E:3D:9D:BF (scanning)
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.3208] dns-mgr: Writing DNS information to /usr/bin/resolvconf
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.3622] dns-mgr: Removing DNS information from /usr/bin/resolvconf
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <warn>  [1502338723.4028] sup-iface[0x1ceaca0,wlan0]: connection disconnected (reason -3)
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.4030] device (wlan0): supplicant interface state: completed -> disconnected
+Aug 10 13:18:43 bugger2-linux nm-dispatcher[12905]: req:5 'down' [wlan0]: new request (0 scripts)
+Aug 10 13:18:43 bugger2-linux nm-dispatcher[12905]: req:5 'down' [wlan0]: completed: no scripts
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.4055] device (wlan0): state change: disconnected -> unmanaged (reason 'sleeping', internal state 'managed')
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.4573] device (wlan0): set-hw-addr: reset MAC address to 4C:0B:BE:06:74:98 (unmanage)
+Aug 10 13:18:43 bugger2-linux systemd[1]: Reached target Sleep.
+-- Subject: Unit sleep.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sleep.target has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:18:43 bugger2-linux systemd[1]: Starting Suspend...
+-- Subject: Unit systemd-suspend.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-suspend.service has begun starting up.
+Aug 10 13:18:43 bugger2-linux systemd-sleep[13073]: Waking up from suspend...
+Aug 10 13:18:43 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: shutdown mwifiex...
+Aug 10 13:18:43 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: PREP_CMD: card is removed
+Aug 10 13:18:43 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: PREP_CMD: card is removed
+Aug 10 13:18:43 bugger2-linux wpa_supplicant[473]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Aug 10 13:18:43 bugger2-linux systemd[1]: Starting Load/Save RF Kill Switch Status...
+-- Subject: Unit systemd-rfkill.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.service has begun starting up.
+Aug 10 13:18:43 bugger2-linux NetworkManager[245]: <info>  [1502338723.5438] radio killswitch /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy2/rfkill5 disappeared
+Aug 10 13:18:43 bugger2-linux systemd[1]: Started Load/Save RF Kill Switch Status.
+-- Subject: Unit systemd-rfkill.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:18:43 bugger2-linux systemd-sleep[13073]: Suspending system...
+-- Subject: System sleep state suspend entered
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system has now entered the suspend sleep state.
+Aug 10 13:19:02 bugger2-linux kernel: PM: Syncing filesystems ... done.
+Aug 10 13:19:02 bugger2-linux kernel: PM: Preparing system for sleep (freeze)
+Aug 10 13:19:02 bugger2-linux kernel: Freezing user space processes ... (elapsed 0.001 seconds) done.
+Aug 10 13:19:02 bugger2-linux kernel: OOM killer disabled.
+Aug 10 13:19:02 bugger2-linux kernel: Freezing remaining freezable tasks ... (elapsed 0.000 seconds) done.
+Aug 10 13:19:02 bugger2-linux kernel: PM: Suspending system (freeze)
+Aug 10 13:19:02 bugger2-linux kernel: Suspending console(s) (use no_console_suspend to debug)
+Aug 10 13:19:02 bugger2-linux kernel: sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Aug 10 13:19:02 bugger2-linux kernel: sd 0:0:0:0: [sda] Stopping disk
+Aug 10 13:19:02 bugger2-linux kernel: PM: suspend of devices complete after 1252.087 msecs
+Aug 10 13:19:02 bugger2-linux kernel: PM: late suspend of devices complete after 33.554 msecs
+Aug 10 13:19:02 bugger2-linux kernel: xhci_hcd 0000:00:14.0: System wakeup enabled by ACPI
+Aug 10 13:19:02 bugger2-linux kernel: PM: noirq suspend of devices complete after 17.307 msecs
+Aug 10 13:19:02 bugger2-linux kernel: PM: suspend-to-idle
+Aug 10 13:19:02 bugger2-linux kernel: Suspended for 16.027 seconds
+Aug 10 13:19:02 bugger2-linux kernel: PM: resume from suspend-to-idle
+Aug 10 13:19:02 bugger2-linux kernel: xhci_hcd 0000:00:14.0: System wakeup disabled by ACPI
+Aug 10 13:19:02 bugger2-linux kernel: PM: noirq resume of devices complete after 125.971 msecs
+Aug 10 13:19:02 bugger2-linux kernel: PM: early resume of devices complete after 89.832 msecs
+Aug 10 13:19:02 bugger2-linux kernel: sd 0:0:0:0: [sda] Starting disk
+Aug 10 13:19:02 bugger2-linux kernel: rtc_cmos 00:01: System wakeup disabled by ACPI
+Aug 10 13:19:02 bugger2-linux kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Aug 10 13:19:02 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 13:19:02 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 13:19:02 bugger2-linux kernel: ata1.00: configured for UDMA/133
+Aug 10 13:19:02 bugger2-linux kernel: usb 1-3: reset full-speed USB device number 2 using xhci_hcd
+Aug 10 13:19:02 bugger2-linux kernel: PM: resume of devices complete after 1566.121 msecs
+Aug 10 13:19:02 bugger2-linux kernel: PM: Finishing wakeup.
+Aug 10 13:19:02 bugger2-linux kernel: OOM killer enabled.
+Aug 10 13:19:02 bugger2-linux kernel: Restarting tasks ... done.
+Aug 10 13:19:02 bugger2-linux systemd-sleep[13073]: System resumed.
+-- Subject: System sleep state suspend left
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system has now left the suspend sleep state.
+Aug 10 13:19:02 bugger2-linux systemd-sleep[13073]: Going to suspend...
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex_pcie: try set_consistent_dma_mask(32)
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex_pcie: PCI memory map Virt0: ffffb9fb42900000 PCI memory map Virt2: ffffb9fb43b00000
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex: rx work enabled, cpus 4
+Aug 10 13:19:02 bugger2-linux systemd[1]: Started Suspend.
+-- Subject: Unit systemd-suspend.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-suspend.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: WLAN FW already running! Skip FW dnld
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: WLAN FW is active
+Aug 10 13:19:02 bugger2-linux systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Aug 10 13:19:02 bugger2-linux systemd[1]: Stopped target Sleep.
+-- Subject: Unit sleep.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sleep.target has finished shutting down.
+Aug 10 13:19:02 bugger2-linux systemd[1]: suspend.target: Bound to unit systemd-suspend.service, but unit isn't active.
+Aug 10 13:19:02 bugger2-linux systemd[1]: Dependency failed for Suspend.
+-- Subject: Unit suspend.target has failed
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit suspend.target has failed.
+-- 
+-- The result is dependency.
+Aug 10 13:19:02 bugger2-linux systemd-logind[243]: Operation 'sleep' finished.
+Aug 10 13:19:02 bugger2-linux NetworkManager[245]: <info>  [1502338742.8657] manager: wake requested (sleeping: yes  enabled: yes)
+Aug 10 13:19:02 bugger2-linux NetworkManager[245]: <info>  [1502338742.8657] manager: waking up...
+Aug 10 13:19:02 bugger2-linux NetworkManager[245]: <info>  [1502338742.8657] manager: NetworkManager state is now DISCONNECTED
+Aug 10 13:19:02 bugger2-linux systemd[1]: suspend.target: Job suspend.target/start failed with result 'dependency'.
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: CMD_RESP: cmd 0x242 error, result=0x2
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: mwifiex_process_cmdresp: cmd 0x242 failed during        initialization
+Aug 10 13:19:02 bugger2-linux NetworkManager[245]: <info>  [1502338742.9480] rfkill6: found WiFi radio killswitch (at /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy3/rfkill6) (driver mwifiex_pcie)
+Aug 10 13:19:02 bugger2-linux systemd-udevd[13107]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug 10 13:19:02 bugger2-linux NetworkManager[245]: <info>  [1502338742.9706] wifi-nl80211: (mlan0): using nl80211 for WiFi device control
+Aug 10 13:19:02 bugger2-linux NetworkManager[245]: <info>  [1502338742.9714] device (mlan0): driver supports Access Point (AP) mode
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: MWIFIEX VERSION: mwifiex 1.0 (15.68.7.p77) 
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: driver_version = mwifiex 1.0 (15.68.7.p77) 
+Aug 10 13:19:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0 wlan0: renamed from mlan0
+Aug 10 13:19:02 bugger2-linux NetworkManager[245]: <info>  [1502338742.9942] manager: (mlan0): new 802.11 WiFi device (/org/freedesktop/NetworkManager/Devices/5)
+Aug 10 13:19:02 bugger2-linux NetworkManager[245]: <info>  [1502338742.9952] device (mlan0): interface index 5 renamed iface from 'mlan0' to 'wlan0'
+Aug 10 13:19:02 bugger2-linux NetworkManager[245]: <info>  [1502338742.9987] device (wlan0): state change: unmanaged -> unavailable (reason 'managed', internal state 'external')
+Aug 10 13:19:02 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:02 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:03 bugger2-linux NetworkManager[245]: <info>  [1502338743.0048] device (wlan0): set-hw-addr: set MAC address to 3E:11:00:4D:08:A7 (scanning)
+Aug 10 13:19:03 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:03 bugger2-linux lxqt-panel[396]: UdevQt: unhandled device action "move"
+Aug 10 13:19:03 bugger2-linux NetworkManager[245]: <info>  [1502338743.0726] sup-iface[0x1ceab60,wlan0]: supports 5 scan SSIDs
+Aug 10 13:19:03 bugger2-linux NetworkManager[245]: <info>  [1502338743.0735] device (wlan0): supplicant interface state: starting -> ready
+Aug 10 13:19:03 bugger2-linux NetworkManager[245]: <info>  [1502338743.0736] device (wlan0): state change: unavailable -> disconnected (reason 'supplicant-available', internal state 'managed')
+Aug 10 13:19:03 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:04 bugger2-linux kernel:  sdb: sdb1
+Aug 10 13:19:04 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" lost interfaces: ("org.freedesktop.UDisks2.Partition", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Block")
+Aug 10 13:19:04 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" has new interfaces: ("org.freedesktop.UDisks2.Block", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Partition")
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1129] device (wlan0): supplicant interface state: ready -> inactive
+Aug 10 13:19:07 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SCAN-FAILED ret=-16
+Aug 10 13:19:07 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: scan failed: -16
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1184] policy: auto-activating connection 'AirMac Express'
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1192] device (wlan0): Activation: starting connection 'AirMac Express' (7601d611-d086-455e-9334-b65cf8e0d07c)
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1194] device (wlan0): state change: disconnected -> prepare (reason 'none', internal state 'managed')
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1195] manager: NetworkManager state is now CONNECTING
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1599] device (wlan0): set-hw-addr: reset MAC address to 4C:0B:BE:06:74:98 (preserve)
+Aug 10 13:19:07 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1663] device (wlan0): supplicant interface state: inactive -> disabled
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1667] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1669] device (wlan0): Activation: (wifi) access point 'AirMac Express' has security, but secrets are required.
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1669] device (wlan0): state change: config -> need-auth (reason 'none', internal state 'managed')
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1717] device (wlan0): supplicant interface state: disabled -> inactive
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1719] device (wlan0): state change: need-auth -> prepare (reason 'none', internal state 'managed')
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1722] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1724] device (wlan0): Activation: (wifi) connection 'AirMac Express' has security, and secrets exist.  No new secrets needed.
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1724] Config: added 'ssid' value 'AirMac Express'
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1724] Config: added 'scan_ssid' value '1'
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1724] Config: added 'key_mgmt' value 'WPA-PSK'
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1729] Config: added 'auth_alg' value 'OPEN'
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1729] Config: added 'psk' value '<hidden>'
+Aug 10 13:19:07 bugger2-linux NetworkManager[245]: <info>  [1502338747.1850] device (wlan0): supplicant interface state: inactive -> scanning
+Aug 10 13:19:11 bugger2-linux wpa_supplicant[473]: wlan0: Trying to associate with 88:1f:a1:41:1e:90 (SSID='AirMac Express' freq=2462 MHz)
+Aug 10 13:19:11 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: trying to associate to 'AirMac Express' bssid 88:1f:a1:41:1e:90
+Aug 10 13:19:11 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: associated to bssid 88:1f:a1:41:1e:90 successfully
+Aug 10 13:19:11 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Aug 10 13:19:11 bugger2-linux wpa_supplicant[473]: wlan0: Associated with 88:1f:a1:41:1e:90
+Aug 10 13:19:11 bugger2-linux NetworkManager[245]: <info>  [1502338751.2990] device (wlan0): supplicant interface state: scanning -> associating
+Aug 10 13:19:11 bugger2-linux wpa_supplicant[473]: WMM AC: Missing IEs
+Aug 10 13:19:11 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Aug 10 13:19:11 bugger2-linux wpa_supplicant[473]: wlan0: WPA: Key negotiation completed with 88:1f:a1:41:1e:90 [PTK=CCMP GTK=CCMP]
+Aug 10 13:19:11 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-CONNECTED - Connection to 88:1f:a1:41:1e:90 completed [id=0 id_str=]
+Aug 10 13:19:11 bugger2-linux NetworkManager[245]: <info>  [1502338751.3059] device (wlan0): supplicant interface state: associating -> completed
+Aug 10 13:19:11 bugger2-linux NetworkManager[245]: <info>  [1502338751.3059] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'AirMac Express'.
+Aug 10 13:19:11 bugger2-linux NetworkManager[245]: <info>  [1502338751.3065] device (wlan0): state change: config -> ip-config (reason 'none', internal state 'managed')
+Aug 10 13:19:11 bugger2-linux NetworkManager[245]: <info>  [1502338751.3067] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 13:19:11 bugger2-linux NetworkManager[245]: <info>  [1502338751.3084] dhcp4 (wlan0): dhclient started with pid 13135
+Aug 10 13:19:11 bugger2-linux dhclient[13135]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.1583] dhcp6 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <warn>  [1502338754.1583] dhcp6 (wlan0): hostname is not a FQDN, it will be ignored
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.1619] dhcp6 (wlan0): dhclient started with pid 13145
+Aug 10 13:19:14 bugger2-linux dhclient[13145]: XMT: Info-Request on wlan0, interval 920ms.
+Aug 10 13:19:14 bugger2-linux dhclient[13135]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 13:19:14 bugger2-linux dhclient[13145]: RCV: Reply message on wlan0 from fe80::5675:d0ff:fe89:9eca.
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5146] dhcp6 (wlan0):   nameserver '2404:1a8:7f01:b::3'
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5147] dhcp6 (wlan0):   nameserver '2404:1a8:7f01:a::3'
+Aug 10 13:19:14 bugger2-linux dbus[244]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5147] dhcp (wlan0):   domain search 'flets-east.jp.'
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5147] dhcp (wlan0):   domain search 'iptvf.jp.'
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5148] dhcp6 (wlan0): state changed unknown -> bound
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5177] dhcp6 (wlan0): client pid 13145 exited with status 0
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5178] dhcp6 (wlan0): state changed bound -> done
+Aug 10 13:19:14 bugger2-linux systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Aug 10 13:19:14 bugger2-linux dbus[244]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 10 13:19:14 bugger2-linux systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:19:14 bugger2-linux nm-dispatcher[13151]: req:1 'dhcp6-change' [wlan0]: new request (0 scripts)
+Aug 10 13:19:14 bugger2-linux nm-dispatcher[13151]: req:1 'dhcp6-change' [wlan0]: completed: no scripts
+Aug 10 13:19:14 bugger2-linux dhclient[13135]: DHCPACK from 192.168.10.1
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5598] dhcp4 (wlan0):   address 192.168.10.105
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5598] dhcp4 (wlan0):   plen 24 (255.255.255.0)
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5598] dhcp4 (wlan0):   gateway 192.168.10.1
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5598] dhcp4 (wlan0):   lease time 86400
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5599] dhcp4 (wlan0):   nameserver '192.168.10.1'
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5599] dhcp4 (wlan0): state changed unknown -> bound
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5626] device (wlan0): state change: ip-config -> ip-check (reason 'none', internal state 'managed')
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5637] device (wlan0): state change: ip-check -> secondaries (reason 'none', internal state 'managed')
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5647] device (wlan0): state change: secondaries -> activated (reason 'none', internal state 'managed')
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5649] manager: NetworkManager state is now CONNECTED_LOCAL
+Aug 10 13:19:14 bugger2-linux dhclient[13135]: bound to 192.168.10.105 -- renewal in 35512 seconds.
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5796] manager: NetworkManager state is now CONNECTED_GLOBAL
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5798] policy: set 'AirMac Express' (wlan0) as default for IPv4 routing and DNS
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5799] policy: set 'AirMac Express' (wlan0) as default for IPv6 routing and DNS
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.5799] dns-mgr: Writing DNS information to /usr/bin/resolvconf
+Aug 10 13:19:14 bugger2-linux NetworkManager[245]: <info>  [1502338754.6163] device (wlan0): Activation: successful, device activated.
+Aug 10 13:19:14 bugger2-linux nm-dispatcher[13151]: req:2 'up' [wlan0]: new request (0 scripts)
+Aug 10 13:19:14 bugger2-linux nm-dispatcher[13151]: req:2 'up' [wlan0]: completed: no scripts
+Aug 10 13:19:15 bugger2-linux nm-dispatcher[13151]: req:3 'connectivity-change': new request (0 scripts)
+Aug 10 13:19:15 bugger2-linux nm-dispatcher[13151]: req:3 'connectivity-change': completed: no scripts
+Aug 10 13:19:29 bugger2-linux systemd-logind[243]: Suspending...
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5457] manager: sleep requested (sleeping: no  enabled: yes)
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5457] manager: sleeping...
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5458] manager: NetworkManager state is now ASLEEP
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5462] device (wlan0): state change: activated -> deactivating (reason 'sleeping', internal state 'managed')
+Aug 10 13:19:29 bugger2-linux dbus[244]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5512] device (wlan0): state change: deactivating -> disconnected (reason 'sleeping', internal state 'managed')
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5528] dhcp4 (wlan0): canceled DHCP transaction, DHCP client pid 13135
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5528] dhcp4 (wlan0): state changed bound -> done
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5531] dhcp6 (wlan0): canceled DHCP transaction
+Aug 10 13:19:29 bugger2-linux systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Aug 10 13:19:29 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-DISCONNECTED bssid=88:1f:a1:41:1e:90 reason=3 locally_generated=1
+Aug 10 13:19:29 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: successfully disconnected from 88:1f:a1:41:1e:90: reason code 3
+Aug 10 13:19:29 bugger2-linux dbus[244]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 10 13:19:29 bugger2-linux nm-dispatcher[13316]: req:1 'connectivity-change': new request (0 scripts)
+Aug 10 13:19:29 bugger2-linux nm-dispatcher[13316]: req:1 'connectivity-change': completed: no scripts
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5614] device (wlan0): set-hw-addr: set MAC address to EA:EE:FB:FB:82:F9 (scanning)
+Aug 10 13:19:29 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:29 bugger2-linux systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.5646] dns-mgr: Writing DNS information to /usr/bin/resolvconf
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.6236] dns-mgr: Removing DNS information from /usr/bin/resolvconf
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <warn>  [1502338769.6573] sup-iface[0x1ceab60,wlan0]: connection disconnected (reason -3)
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.6574] device (wlan0): supplicant interface state: completed -> disconnected
+Aug 10 13:19:29 bugger2-linux nm-dispatcher[13316]: req:2 'down' [wlan0]: new request (0 scripts)
+Aug 10 13:19:29 bugger2-linux nm-dispatcher[13316]: req:2 'down' [wlan0]: completed: no scripts
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.6579] device (wlan0): state change: disconnected -> unmanaged (reason 'sleeping', internal state 'managed')
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.7111] device (wlan0): set-hw-addr: reset MAC address to 4C:0B:BE:06:74:98 (unmanage)
+Aug 10 13:19:29 bugger2-linux systemd[1]: Reached target Sleep.
+-- Subject: Unit sleep.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sleep.target has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:19:29 bugger2-linux systemd[1]: Starting Suspend...
+-- Subject: Unit systemd-suspend.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-suspend.service has begun starting up.
+Aug 10 13:19:29 bugger2-linux systemd-sleep[13396]: Waking up from suspend...
+Aug 10 13:19:29 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: shutdown mwifiex...
+Aug 10 13:19:29 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: PREP_CMD: card is removed
+Aug 10 13:19:29 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: PREP_CMD: card is removed
+Aug 10 13:19:29 bugger2-linux wpa_supplicant[473]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Aug 10 13:19:29 bugger2-linux systemd[1]: Starting Load/Save RF Kill Switch Status...
+-- Subject: Unit systemd-rfkill.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.service has begun starting up.
+Aug 10 13:19:29 bugger2-linux NetworkManager[245]: <info>  [1502338769.7763] radio killswitch /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy3/rfkill6 disappeared
+Aug 10 13:19:29 bugger2-linux systemd[1]: Started Load/Save RF Kill Switch Status.
+-- Subject: Unit systemd-rfkill.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:19:29 bugger2-linux systemd-sleep[13396]: Suspending system...
+-- Subject: System sleep state suspend entered
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system has now entered the suspend sleep state.
+Aug 10 13:19:35 bugger2-linux kernel: PM: Syncing filesystems ... done.
+Aug 10 13:19:35 bugger2-linux kernel: PM: Preparing system for sleep (freeze)
+Aug 10 13:19:35 bugger2-linux kernel: Freezing user space processes ... (elapsed 0.001 seconds) done.
+Aug 10 13:19:35 bugger2-linux kernel: OOM killer disabled.
+Aug 10 13:19:35 bugger2-linux kernel: Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Aug 10 13:19:35 bugger2-linux kernel: PM: Suspending system (freeze)
+Aug 10 13:19:35 bugger2-linux kernel: Suspending console(s) (use no_console_suspend to debug)
+Aug 10 13:19:35 bugger2-linux kernel: sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Aug 10 13:19:35 bugger2-linux kernel: sd 0:0:0:0: [sda] Stopping disk
+Aug 10 13:19:35 bugger2-linux kernel: PM: suspend of devices complete after 1251.817 msecs
+Aug 10 13:19:35 bugger2-linux kernel: PM: late suspend of devices complete after 33.515 msecs
+Aug 10 13:19:35 bugger2-linux kernel: xhci_hcd 0000:00:14.0: System wakeup enabled by ACPI
+Aug 10 13:19:35 bugger2-linux kernel: PM: noirq suspend of devices complete after 17.185 msecs
+Aug 10 13:19:35 bugger2-linux kernel: PM: suspend-to-idle
+Aug 10 13:19:35 bugger2-linux kernel: Suspended for 2.770 seconds
+Aug 10 13:19:35 bugger2-linux kernel: PM: resume from suspend-to-idle
+Aug 10 13:19:35 bugger2-linux kernel: xhci_hcd 0000:00:14.0: System wakeup disabled by ACPI
+Aug 10 13:19:35 bugger2-linux kernel: PM: noirq resume of devices complete after 126.113 msecs
+Aug 10 13:19:35 bugger2-linux kernel: PM: early resume of devices complete after 89.817 msecs
+Aug 10 13:19:35 bugger2-linux kernel: sd 0:0:0:0: [sda] Starting disk
+Aug 10 13:19:35 bugger2-linux kernel: rtc_cmos 00:01: System wakeup disabled by ACPI
+Aug 10 13:19:35 bugger2-linux kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Aug 10 13:19:35 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 13:19:35 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 13:19:35 bugger2-linux kernel: ata1.00: configured for UDMA/133
+Aug 10 13:19:35 bugger2-linux kernel: usb 1-3: reset full-speed USB device number 2 using xhci_hcd
+Aug 10 13:19:35 bugger2-linux kernel: PM: resume of devices complete after 1566.281 msecs
+Aug 10 13:19:35 bugger2-linux kernel: PM: Finishing wakeup.
+Aug 10 13:19:35 bugger2-linux kernel: OOM killer enabled.
+Aug 10 13:19:35 bugger2-linux kernel: Restarting tasks ... done.
+Aug 10 13:19:35 bugger2-linux systemd-sleep[13396]: System resumed.
+-- Subject: System sleep state suspend left
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system has now left the suspend sleep state.
+Aug 10 13:19:35 bugger2-linux systemd-sleep[13396]: Going to suspend...
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex_pcie: try set_consistent_dma_mask(32)
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex_pcie: PCI memory map Virt0: ffffb9fb42900000 PCI memory map Virt2: ffffb9fb43b00000
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex: rx work enabled, cpus 4
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: WLAN FW already running! Skip FW dnld
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: WLAN FW is active
+Aug 10 13:19:35 bugger2-linux systemd[1]: Started Suspend.
+-- Subject: Unit systemd-suspend.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-suspend.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:19:35 bugger2-linux systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Aug 10 13:19:35 bugger2-linux systemd[1]: Stopped target Sleep.
+-- Subject: Unit sleep.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sleep.target has finished shutting down.
+Aug 10 13:19:35 bugger2-linux systemd[1]: suspend.target: Bound to unit systemd-suspend.service, but unit isn't active.
+Aug 10 13:19:35 bugger2-linux systemd[1]: Dependency failed for Suspend.
+-- Subject: Unit suspend.target has failed
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit suspend.target has failed.
+-- 
+-- The result is dependency.
+Aug 10 13:19:35 bugger2-linux systemd[1]: suspend.target: Job suspend.target/start failed with result 'dependency'.
+Aug 10 13:19:35 bugger2-linux systemd-logind[243]: Operation 'sleep' finished.
+Aug 10 13:19:35 bugger2-linux NetworkManager[245]: <info>  [1502338775.8875] manager: wake requested (sleeping: yes  enabled: yes)
+Aug 10 13:19:35 bugger2-linux NetworkManager[245]: <info>  [1502338775.8876] manager: waking up...
+Aug 10 13:19:35 bugger2-linux NetworkManager[245]: <info>  [1502338775.8876] manager: NetworkManager state is now DISCONNECTED
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: CMD_RESP: cmd 0x242 error, result=0x2
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: mwifiex_process_cmdresp: cmd 0x242 failed during        initialization
+Aug 10 13:19:35 bugger2-linux NetworkManager[245]: <info>  [1502338775.9629] rfkill7: found WiFi radio killswitch (at /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy4/rfkill7) (driver mwifiex_pcie)
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: MWIFIEX VERSION: mwifiex 1.0 (15.68.7.p77) 
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: driver_version = mwifiex 1.0 (15.68.7.p77) 
+Aug 10 13:19:35 bugger2-linux NetworkManager[245]: <info>  [1502338775.9790] wifi-nl80211: (mlan0): using nl80211 for WiFi device control
+Aug 10 13:19:35 bugger2-linux NetworkManager[245]: <info>  [1502338775.9797] device (mlan0): driver supports Access Point (AP) mode
+Aug 10 13:19:35 bugger2-linux NetworkManager[245]: <info>  [1502338775.9813] manager: (mlan0): new 802.11 WiFi device (/org/freedesktop/NetworkManager/Devices/6)
+Aug 10 13:19:35 bugger2-linux systemd-udevd[13427]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug 10 13:19:35 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0 wlan0: renamed from mlan0
+Aug 10 13:19:36 bugger2-linux NetworkManager[245]: <info>  [1502338776.0035] device (mlan0): interface index 6 renamed iface from 'mlan0' to 'wlan0'
+Aug 10 13:19:36 bugger2-linux NetworkManager[245]: <info>  [1502338776.0123] device (wlan0): state change: unmanaged -> unavailable (reason 'managed', internal state 'external')
+Aug 10 13:19:36 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:36 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:36 bugger2-linux NetworkManager[245]: <info>  [1502338776.0216] device (wlan0): set-hw-addr: set MAC address to 3A:D3:4C:0C:74:41 (scanning)
+Aug 10 13:19:36 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:36 bugger2-linux lxqt-panel[396]: UdevQt: unhandled device action "move"
+Aug 10 13:19:36 bugger2-linux NetworkManager[245]: <info>  [1502338776.0795] sup-iface[0x1ceaca0,wlan0]: supports 5 scan SSIDs
+Aug 10 13:19:36 bugger2-linux NetworkManager[245]: <info>  [1502338776.0803] device (wlan0): supplicant interface state: starting -> ready
+Aug 10 13:19:36 bugger2-linux NetworkManager[245]: <info>  [1502338776.0804] device (wlan0): state change: unavailable -> disconnected (reason 'supplicant-available', internal state 'managed')
+Aug 10 13:19:36 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:37 bugger2-linux kernel:  sdb: sdb1
+Aug 10 13:19:37 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" lost interfaces: ("org.freedesktop.UDisks2.Partition", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Block")
+Aug 10 13:19:37 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" has new interfaces: ("org.freedesktop.UDisks2.Block", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Partition")
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1202] device (wlan0): supplicant interface state: ready -> inactive
+Aug 10 13:19:40 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SCAN-FAILED ret=-16
+Aug 10 13:19:40 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: scan failed: -16
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1247] policy: auto-activating connection 'AirMac Express'
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1254] device (wlan0): Activation: starting connection 'AirMac Express' (7601d611-d086-455e-9334-b65cf8e0d07c)
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1256] device (wlan0): state change: disconnected -> prepare (reason 'none', internal state 'managed')
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1257] manager: NetworkManager state is now CONNECTING
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1686] device (wlan0): set-hw-addr: reset MAC address to 4C:0B:BE:06:74:98 (preserve)
+Aug 10 13:19:40 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1757] device (wlan0): supplicant interface state: inactive -> disabled
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1772] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1785] device (wlan0): Activation: (wifi) access point 'AirMac Express' has security, but secrets are required.
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1786] device (wlan0): state change: config -> need-auth (reason 'none', internal state 'managed')
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1804] device (wlan0): supplicant interface state: disabled -> inactive
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1841] device (wlan0): state change: need-auth -> prepare (reason 'none', internal state 'managed')
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1844] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1846] device (wlan0): Activation: (wifi) connection 'AirMac Express' has security, and secrets exist.  No new secrets needed.
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1846] Config: added 'ssid' value 'AirMac Express'
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1846] Config: added 'scan_ssid' value '1'
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1846] Config: added 'key_mgmt' value 'WPA-PSK'
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1846] Config: added 'auth_alg' value 'OPEN'
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1846] Config: added 'psk' value '<hidden>'
+Aug 10 13:19:40 bugger2-linux NetworkManager[245]: <info>  [1502338780.1966] device (wlan0): supplicant interface state: inactive -> scanning
+Aug 10 13:19:44 bugger2-linux wpa_supplicant[473]: wlan0: Trying to associate with 88:1f:a1:41:1e:90 (SSID='AirMac Express' freq=2462 MHz)
+Aug 10 13:19:44 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: trying to associate to 'AirMac Express' bssid 88:1f:a1:41:1e:90
+Aug 10 13:19:44 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: associated to bssid 88:1f:a1:41:1e:90 successfully
+Aug 10 13:19:44 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Aug 10 13:19:44 bugger2-linux NetworkManager[245]: <info>  [1502338784.3062] device (wlan0): supplicant interface state: scanning -> associating
+Aug 10 13:19:44 bugger2-linux wpa_supplicant[473]: wlan0: Associated with 88:1f:a1:41:1e:90
+Aug 10 13:19:44 bugger2-linux wpa_supplicant[473]: WMM AC: Missing IEs
+Aug 10 13:19:44 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Aug 10 13:19:44 bugger2-linux wpa_supplicant[473]: wlan0: WPA: Key negotiation completed with 88:1f:a1:41:1e:90 [PTK=CCMP GTK=CCMP]
+Aug 10 13:19:44 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-CONNECTED - Connection to 88:1f:a1:41:1e:90 completed [id=0 id_str=]
+Aug 10 13:19:44 bugger2-linux NetworkManager[245]: <info>  [1502338784.3169] device (wlan0): supplicant interface state: associating -> completed
+Aug 10 13:19:44 bugger2-linux NetworkManager[245]: <info>  [1502338784.3169] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'AirMac Express'.
+Aug 10 13:19:44 bugger2-linux NetworkManager[245]: <info>  [1502338784.3174] device (wlan0): state change: config -> ip-config (reason 'none', internal state 'managed')
+Aug 10 13:19:44 bugger2-linux NetworkManager[245]: <info>  [1502338784.3177] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 13:19:44 bugger2-linux NetworkManager[245]: <info>  [1502338784.3192] dhcp4 (wlan0): dhclient started with pid 13444
+Aug 10 13:19:44 bugger2-linux dhclient[13444]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 13:19:45 bugger2-linux NetworkManager[245]: <info>  [1502338785.8751] dhcp6 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 13:19:45 bugger2-linux NetworkManager[245]: <warn>  [1502338785.8752] dhcp6 (wlan0): hostname is not a FQDN, it will be ignored
+Aug 10 13:19:45 bugger2-linux NetworkManager[245]: <info>  [1502338785.8767] dhcp6 (wlan0): dhclient started with pid 13455
+Aug 10 13:19:46 bugger2-linux dhclient[13455]: XMT: Info-Request on wlan0, interval 1060ms.
+Aug 10 13:19:47 bugger2-linux dhclient[13455]: XMT: Info-Request on wlan0, interval 2190ms.
+Aug 10 13:19:47 bugger2-linux dhclient[13455]: RCV: Reply message on wlan0 from fe80::5675:d0ff:fe89:9eca.
+Aug 10 13:19:47 bugger2-linux NetworkManager[245]: <info>  [1502338787.6241] dhcp6 (wlan0):   nameserver '2404:1a8:7f01:b::3'
+Aug 10 13:19:47 bugger2-linux NetworkManager[245]: <info>  [1502338787.6242] dhcp6 (wlan0):   nameserver '2404:1a8:7f01:a::3'
+Aug 10 13:19:47 bugger2-linux NetworkManager[245]: <info>  [1502338787.6242] dhcp (wlan0):   domain search 'flets-east.jp.'
+Aug 10 13:19:47 bugger2-linux NetworkManager[245]: <info>  [1502338787.6242] dhcp (wlan0):   domain search 'iptvf.jp.'
+Aug 10 13:19:47 bugger2-linux NetworkManager[245]: <info>  [1502338787.6242] dhcp6 (wlan0): state changed unknown -> bound
+Aug 10 13:19:47 bugger2-linux NetworkManager[245]: <info>  [1502338787.6261] dhcp6 (wlan0): client pid 13455 exited with status 0
+Aug 10 13:19:47 bugger2-linux NetworkManager[245]: <info>  [1502338787.6262] dhcp6 (wlan0): state changed bound -> done
+Aug 10 13:19:47 bugger2-linux dbus[244]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 10 13:19:47 bugger2-linux systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Aug 10 13:19:47 bugger2-linux dbus[244]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 10 13:19:47 bugger2-linux systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:19:47 bugger2-linux nm-dispatcher[13462]: req:1 'dhcp6-change' [wlan0]: new request (0 scripts)
+Aug 10 13:19:47 bugger2-linux nm-dispatcher[13462]: req:1 'dhcp6-change' [wlan0]: completed: no scripts
+Aug 10 13:19:49 bugger2-linux dhclient[13444]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 13:19:50 bugger2-linux dhclient[13444]: DHCPACK from 192.168.10.1
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3862] dhcp4 (wlan0):   address 192.168.10.105
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3862] dhcp4 (wlan0):   plen 24 (255.255.255.0)
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3863] dhcp4 (wlan0):   gateway 192.168.10.1
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3863] dhcp4 (wlan0):   lease time 86400
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3863] dhcp4 (wlan0):   nameserver '192.168.10.1'
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3863] dhcp4 (wlan0): state changed unknown -> bound
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3893] device (wlan0): state change: ip-config -> ip-check (reason 'none', internal state 'managed')
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3900] device (wlan0): state change: ip-check -> secondaries (reason 'none', internal state 'managed')
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3902] device (wlan0): state change: secondaries -> activated (reason 'none', internal state 'managed')
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.3905] manager: NetworkManager state is now CONNECTED_LOCAL
+Aug 10 13:19:50 bugger2-linux dhclient[13444]: bound to 192.168.10.105 -- renewal in 43092 seconds.
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.4043] manager: NetworkManager state is now CONNECTED_GLOBAL
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.4045] policy: set 'AirMac Express' (wlan0) as default for IPv4 routing and DNS
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.4046] policy: set 'AirMac Express' (wlan0) as default for IPv6 routing and DNS
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.4047] dns-mgr: Writing DNS information to /usr/bin/resolvconf
+Aug 10 13:19:50 bugger2-linux NetworkManager[245]: <info>  [1502338790.4418] device (wlan0): Activation: successful, device activated.
+Aug 10 13:19:50 bugger2-linux nm-dispatcher[13462]: req:2 'up' [wlan0]: new request (0 scripts)
+Aug 10 13:19:50 bugger2-linux nm-dispatcher[13462]: req:2 'up' [wlan0]: completed: no scripts
+Aug 10 13:19:52 bugger2-linux nm-dispatcher[13462]: req:3 'connectivity-change': new request (0 scripts)
+Aug 10 13:19:52 bugger2-linux nm-dispatcher[13462]: req:3 'connectivity-change': completed: no scripts
+Aug 10 13:20:02 bugger2-linux systemd-logind[243]: Suspending...
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.5668] manager: sleep requested (sleeping: no  enabled: yes)
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.5668] manager: sleeping...
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.5670] manager: NetworkManager state is now ASLEEP
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.5676] device (wlan0): state change: activated -> deactivating (reason 'sleeping', internal state 'managed')
+Aug 10 13:20:02 bugger2-linux dbus[244]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.5837] device (wlan0): state change: deactivating -> disconnected (reason 'sleeping', internal state 'managed')
+Aug 10 13:20:02 bugger2-linux systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Aug 10 13:20:02 bugger2-linux dbus[244]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 10 13:20:02 bugger2-linux systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:20:02 bugger2-linux nm-dispatcher[13535]: req:1 'connectivity-change': new request (0 scripts)
+Aug 10 13:20:02 bugger2-linux nm-dispatcher[13535]: req:1 'connectivity-change': completed: no scripts
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.6166] dhcp4 (wlan0): canceled DHCP transaction, DHCP client pid 13444
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.6166] dhcp4 (wlan0): state changed bound -> done
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.6170] dhcp6 (wlan0): canceled DHCP transaction
+Aug 10 13:20:02 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-DISCONNECTED bssid=88:1f:a1:41:1e:90 reason=3 locally_generated=1
+Aug 10 13:20:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: successfully disconnected from 88:1f:a1:41:1e:90: reason code 3
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.6277] device (wlan0): set-hw-addr: set MAC address to FA:7B:4D:B8:8C:20 (scanning)
+Aug 10 13:20:02 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.6310] dns-mgr: Writing DNS information to /usr/bin/resolvconf
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.6751] dns-mgr: Removing DNS information from /usr/bin/resolvconf
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <warn>  [1502338802.7121] sup-iface[0x1ceaca0,wlan0]: connection disconnected (reason -3)
+Aug 10 13:20:02 bugger2-linux nm-dispatcher[13535]: req:2 'down' [wlan0]: new request (0 scripts)
+Aug 10 13:20:02 bugger2-linux nm-dispatcher[13535]: req:2 'down' [wlan0]: completed: no scripts
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.7129] device (wlan0): supplicant interface state: completed -> disconnected
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.7149] device (wlan0): state change: disconnected -> unmanaged (reason 'sleeping', internal state 'managed')
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.7665] device (wlan0): set-hw-addr: reset MAC address to 4C:0B:BE:06:74:98 (unmanage)
+Aug 10 13:20:02 bugger2-linux systemd[1]: Reached target Sleep.
+-- Subject: Unit sleep.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sleep.target has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:20:02 bugger2-linux systemd[1]: Starting Suspend...
+-- Subject: Unit systemd-suspend.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-suspend.service has begun starting up.
+Aug 10 13:20:02 bugger2-linux systemd-sleep[13614]: Waking up from suspend...
+Aug 10 13:20:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: shutdown mwifiex...
+Aug 10 13:20:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: PREP_CMD: card is removed
+Aug 10 13:20:02 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: PREP_CMD: card is removed
+Aug 10 13:20:02 bugger2-linux wpa_supplicant[473]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Aug 10 13:20:02 bugger2-linux systemd[1]: Starting Load/Save RF Kill Switch Status...
+-- Subject: Unit systemd-rfkill.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.service has begun starting up.
+Aug 10 13:20:02 bugger2-linux NetworkManager[245]: <info>  [1502338802.8400] radio killswitch /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy4/rfkill7 disappeared
+Aug 10 13:20:02 bugger2-linux systemd[1]: Started Load/Save RF Kill Switch Status.
+-- Subject: Unit systemd-rfkill.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:20:02 bugger2-linux systemd-sleep[13614]: Suspending system...
+-- Subject: System sleep state suspend entered
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system has now entered the suspend sleep state.
+Aug 10 13:21:24 bugger2-linux kernel: PM: Syncing filesystems ... done.
+Aug 10 13:21:24 bugger2-linux kernel: PM: Preparing system for sleep (freeze)
+Aug 10 13:21:24 bugger2-linux kernel: Freezing user space processes ... (elapsed 0.002 seconds) done.
+Aug 10 13:21:24 bugger2-linux kernel: OOM killer disabled.
+Aug 10 13:21:24 bugger2-linux kernel: Freezing remaining freezable tasks ... (elapsed 0.000 seconds) done.
+Aug 10 13:21:24 bugger2-linux kernel: PM: Suspending system (freeze)
+Aug 10 13:21:24 bugger2-linux kernel: Suspending console(s) (use no_console_suspend to debug)
+Aug 10 13:21:24 bugger2-linux kernel: sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Aug 10 13:21:24 bugger2-linux kernel: sd 0:0:0:0: [sda] Stopping disk
+Aug 10 13:21:24 bugger2-linux kernel: PM: suspend of devices complete after 1279.508 msecs
+Aug 10 13:21:24 bugger2-linux kernel: PM: late suspend of devices complete after 33.591 msecs
+Aug 10 13:21:24 bugger2-linux kernel: xhci_hcd 0000:00:14.0: System wakeup enabled by ACPI
+Aug 10 13:21:24 bugger2-linux kernel: PM: noirq suspend of devices complete after 17.190 msecs
+Aug 10 13:21:24 bugger2-linux kernel: PM: suspend-to-idle
+Aug 10 13:21:24 bugger2-linux kernel: Suspended for 79.696 seconds
+Aug 10 13:21:24 bugger2-linux kernel: PM: resume from suspend-to-idle
+Aug 10 13:21:24 bugger2-linux kernel: xhci_hcd 0000:00:14.0: System wakeup disabled by ACPI
+Aug 10 13:21:24 bugger2-linux kernel: PM: noirq resume of devices complete after 126.043 msecs
+Aug 10 13:21:24 bugger2-linux kernel: PM: early resume of devices complete after 89.812 msecs
+Aug 10 13:21:24 bugger2-linux kernel: sd 0:0:0:0: [sda] Starting disk
+Aug 10 13:21:24 bugger2-linux kernel: rtc_cmos 00:01: System wakeup disabled by ACPI
+Aug 10 13:21:24 bugger2-linux kernel: PM: resume of devices complete after 259.452 msecs
+Aug 10 13:21:24 bugger2-linux kernel: PM: Finishing wakeup.
+Aug 10 13:21:24 bugger2-linux kernel: OOM killer enabled.
+Aug 10 13:21:24 bugger2-linux kernel: Restarting tasks ... done.
+Aug 10 13:21:24 bugger2-linux kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Aug 10 13:21:24 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 13:21:24 bugger2-linux kernel: ata1.00: NCQ Send/Recv Log not supported
+Aug 10 13:21:24 bugger2-linux kernel: ata1.00: configured for UDMA/133
+Aug 10 13:21:24 bugger2-linux systemd-sleep[13614]: System resumed.
+-- Subject: System sleep state suspend left
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system has now left the suspend sleep state.
+Aug 10 13:21:24 bugger2-linux systemd-sleep[13614]: Going to suspend...
+Aug 10 13:21:24 bugger2-linux systemd[1]: Started Suspend.
+-- Subject: Unit systemd-suspend.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-suspend.service has finished starting up.
+-- 
+-- The start-up result is done.
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex_pcie: try set_consistent_dma_mask(32)
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex_pcie: PCI memory map Virt0: ffffb9fb42900000 PCI memory map Virt2: ffffb9fb43b00000
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex: rx work enabled, cpus 4
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: WLAN FW already running! Skip FW dnld
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: WLAN FW is active
+Aug 10 13:21:24 bugger2-linux systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Aug 10 13:21:24 bugger2-linux systemd[1]: Stopped target Sleep.
+-- Subject: Unit sleep.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sleep.target has finished shutting down.
+Aug 10 13:21:24 bugger2-linux systemd[1]: suspend.target: Bound to unit systemd-suspend.service, but unit isn't active.
+Aug 10 13:21:24 bugger2-linux systemd[1]: Dependency failed for Suspend.
+-- Subject: Unit suspend.target has failed
+-- Defined-By: systemd
+-- Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit suspend.target has failed.
+-- 
+-- The result is dependency.
+Aug 10 13:21:24 bugger2-linux systemd[1]: suspend.target: Job suspend.target/start failed with result 'dependency'.
+Aug 10 13:21:24 bugger2-linux systemd-logind[243]: Operation 'sleep' finished.
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.5541] manager: wake requested (sleeping: yes  enabled: yes)
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.5541] manager: waking up...
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.5541] manager: NetworkManager state is now DISCONNECTED
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: CMD_RESP: cmd 0x242 error, result=0x2
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: mwifiex_process_cmdresp: cmd 0x242 failed during        initialization
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.6408] rfkill8: found WiFi radio killswitch (at /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy5/rfkill8) (driver mwifiex_pcie)
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.6636] wifi-nl80211: (mlan0): using nl80211 for WiFi device control
+Aug 10 13:21:24 bugger2-linux systemd-udevd[13651]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.6645] device (mlan0): driver supports Access Point (AP) mode
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: MWIFIEX VERSION: mwifiex 1.0 (15.68.7.p77) 
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: driver_version = mwifiex 1.0 (15.68.7.p77) 
+Aug 10 13:21:24 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0 wlan0: renamed from mlan0
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.6836] manager: (mlan0): new 802.11 WiFi device (/org/freedesktop/NetworkManager/Devices/7)
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.6842] device (mlan0): interface index 7 renamed iface from 'mlan0' to 'wlan0'
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.6864] device (wlan0): state change: unmanaged -> unavailable (reason 'managed', internal state 'external')
+Aug 10 13:21:24 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:21:24 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:21:24 bugger2-linux lxqt-panel[396]: UdevQt: unhandled device action "move"
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.6924] device (wlan0): set-hw-addr: set MAC address to CE:21:5C:45:F8:86 (scanning)
+Aug 10 13:21:24 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.7475] sup-iface[0x1ceab60,wlan0]: supports 5 scan SSIDs
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.7484] device (wlan0): supplicant interface state: starting -> ready
+Aug 10 13:21:24 bugger2-linux NetworkManager[245]: <info>  [1502338884.7484] device (wlan0): state change: unavailable -> disconnected (reason 'supplicant-available', internal state 'managed')
+Aug 10 13:21:24 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:21:26 bugger2-linux kernel:  sdb: sdb1
+Aug 10 13:21:26 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" lost interfaces: ("org.freedesktop.UDisks2.Partition", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Block")
+Aug 10 13:21:26 bugger2-linux lxqt-panel[396]: "/org/freedesktop/UDisks2/block_devices/sdb1" has new interfaces: ("org.freedesktop.UDisks2.Block", "org.freedesktop.UDisks2.Filesystem", "org.freedesktop.UDisks2.Partition")
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.7885] device (wlan0): supplicant interface state: ready -> inactive
+Aug 10 13:21:28 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SCAN-FAILED ret=-16
+Aug 10 13:21:28 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: scan failed: -16
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.7952] policy: auto-activating connection 'AirMac Express'
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.7960] device (wlan0): Activation: starting connection 'AirMac Express' (7601d611-d086-455e-9334-b65cf8e0d07c)
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.7965] device (wlan0): state change: disconnected -> prepare (reason 'none', internal state 'managed')
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.7969] manager: NetworkManager state is now CONNECTING
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8355] device (wlan0): set-hw-addr: reset MAC address to 4C:0B:BE:06:74:98 (preserve)
+Aug 10 13:21:28 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8445] device (wlan0): supplicant interface state: inactive -> disabled
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8450] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8451] device (wlan0): Activation: (wifi) access point 'AirMac Express' has security, but secrets are required.
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8452] device (wlan0): state change: config -> need-auth (reason 'none', internal state 'managed')
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8485] device (wlan0): supplicant interface state: disabled -> inactive
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8496] device (wlan0): state change: need-auth -> prepare (reason 'none', internal state 'managed')
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8499] device (wlan0): state change: prepare -> config (reason 'none', internal state 'managed')
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8501] device (wlan0): Activation: (wifi) connection 'AirMac Express' has security, and secrets exist.  No new secrets needed.
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8501] Config: added 'ssid' value 'AirMac Express'
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8501] Config: added 'scan_ssid' value '1'
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8501] Config: added 'key_mgmt' value 'WPA-PSK'
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8501] Config: added 'auth_alg' value 'OPEN'
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8501] Config: added 'psk' value '<hidden>'
+Aug 10 13:21:28 bugger2-linux NetworkManager[245]: <info>  [1502338888.8616] device (wlan0): supplicant interface state: inactive -> scanning
+Aug 10 13:21:32 bugger2-linux wpa_supplicant[473]: wlan0: Trying to associate with 88:1f:a1:41:1e:90 (SSID='AirMac Express' freq=2462 MHz)
+Aug 10 13:21:32 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: trying to associate to 'AirMac Express' bssid 88:1f:a1:41:1e:90
+Aug 10 13:21:32 bugger2-linux NetworkManager[245]: <info>  [1502338892.9717] device (wlan0): supplicant interface state: scanning -> associating
+Aug 10 13:21:32 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: associated to bssid 88:1f:a1:41:1e:90 successfully
+Aug 10 13:21:32 bugger2-linux kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Aug 10 13:21:32 bugger2-linux wpa_supplicant[473]: wlan0: Associated with 88:1f:a1:41:1e:90
+Aug 10 13:21:32 bugger2-linux wpa_supplicant[473]: WMM AC: Missing IEs
+Aug 10 13:21:32 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Aug 10 13:21:32 bugger2-linux wpa_supplicant[473]: wlan0: WPA: Key negotiation completed with 88:1f:a1:41:1e:90 [PTK=CCMP GTK=CCMP]
+Aug 10 13:21:32 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-CONNECTED - Connection to 88:1f:a1:41:1e:90 completed [id=0 id_str=]
+Aug 10 13:21:32 bugger2-linux NetworkManager[245]: <info>  [1502338892.9804] device (wlan0): supplicant interface state: associating -> completed
+Aug 10 13:21:32 bugger2-linux NetworkManager[245]: <info>  [1502338892.9804] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'AirMac Express'.
+Aug 10 13:21:32 bugger2-linux NetworkManager[245]: <info>  [1502338892.9810] device (wlan0): state change: config -> ip-config (reason 'none', internal state 'managed')
+Aug 10 13:21:32 bugger2-linux NetworkManager[245]: <info>  [1502338892.9813] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 13:21:32 bugger2-linux NetworkManager[245]: <info>  [1502338892.9830] dhcp4 (wlan0): dhclient started with pid 13665
+Aug 10 13:21:33 bugger2-linux dhclient[13665]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 13:21:34 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-DISCONNECTED bssid=88:1f:a1:41:1e:90 reason=0
+Aug 10 13:21:34 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: successfully disconnected from 88:1f:a1:41:1e:90: reason code 0
+Aug 10 13:21:34 bugger2-linux NetworkManager[245]: <info>  [1502338894.0885] device (wlan0): supplicant interface state: completed -> disconnected
+Aug 10 13:21:34 bugger2-linux NetworkManager[245]: <info>  [1502338894.1842] device (wlan0): supplicant interface state: disconnected -> scanning
+Aug 10 13:21:38 bugger2-linux wpa_supplicant[473]: wlan0: Trying to associate with 88:1f:a1:41:1e:90 (SSID='AirMac Express' freq=2462 MHz)
+Aug 10 13:21:38 bugger2-linux dhclient[13665]: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Aug 10 13:21:38 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: trying to associate to 'AirMac Express' bssid 88:1f:a1:41:1e:90
+Aug 10 13:21:38 bugger2-linux wpa_supplicant[473]: wlan0: Associated with 88:1f:a1:41:1e:90
+Aug 10 13:21:38 bugger2-linux wpa_supplicant[473]: WMM AC: Missing IEs
+Aug 10 13:21:38 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Aug 10 13:21:38 bugger2-linux NetworkManager[245]: <info>  [1502338898.2842] device (wlan0): supplicant interface state: scanning -> associating
+Aug 10 13:21:38 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: associated to bssid 88:1f:a1:41:1e:90 successfully
+Aug 10 13:21:38 bugger2-linux NetworkManager[245]: <info>  [1502338898.2891] device (wlan0): supplicant interface state: associating -> 4-way handshake
+Aug 10 13:21:38 bugger2-linux wpa_supplicant[473]: wlan0: WPA: Key negotiation completed with 88:1f:a1:41:1e:90 [PTK=CCMP GTK=CCMP]
+Aug 10 13:21:38 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-CONNECTED - Connection to 88:1f:a1:41:1e:90 completed [id=0 id_str=]
+Aug 10 13:21:38 bugger2-linux NetworkManager[245]: <info>  [1502338898.2951] device (wlan0): supplicant interface state: 4-way handshake -> completed
+Aug 10 13:21:38 bugger2-linux NetworkManager[245]: <info>  [1502338898.5890] dhcp6 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Aug 10 13:21:38 bugger2-linux NetworkManager[245]: <warn>  [1502338898.5891] dhcp6 (wlan0): hostname is not a FQDN, it will be ignored
+Aug 10 13:21:38 bugger2-linux NetworkManager[245]: <info>  [1502338898.5925] dhcp6 (wlan0): dhclient started with pid 13677
+Aug 10 13:21:39 bugger2-linux dhclient[13677]: XMT: Info-Request on wlan0, interval 1010ms.
+Aug 10 13:21:39 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-DISCONNECTED bssid=88:1f:a1:41:1e:90 reason=0
+Aug 10 13:21:39 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: successfully disconnected from 88:1f:a1:41:1e:90: reason code 0
+Aug 10 13:21:39 bugger2-linux NetworkManager[245]: <info>  [1502338899.3998] device (wlan0): supplicant interface state: completed -> disconnected
+Aug 10 13:21:39 bugger2-linux NetworkManager[245]: <info>  [1502338899.4953] device (wlan0): supplicant interface state: disconnected -> scanning
+Aug 10 13:21:40 bugger2-linux dhclient[13677]: XMT: Info-Request on wlan0, interval 1930ms.
+Aug 10 13:21:42 bugger2-linux dhclient[13677]: XMT: Info-Request on wlan0, interval 3950ms.
+Aug 10 13:21:43 bugger2-linux wpa_supplicant[473]: wlan0: Trying to associate with 88:1f:a1:41:1e:90 (SSID='AirMac Express' freq=2462 MHz)
+Aug 10 13:21:43 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: trying to associate to 'AirMac Express' bssid 88:1f:a1:41:1e:90
+Aug 10 13:21:43 bugger2-linux NetworkManager[245]: <info>  [1502338903.5952] device (wlan0): supplicant interface state: scanning -> associating
+Aug 10 13:21:43 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: associated to bssid 88:1f:a1:41:1e:90 successfully
+Aug 10 13:21:43 bugger2-linux wpa_supplicant[473]: wlan0: Associated with 88:1f:a1:41:1e:90
+Aug 10 13:21:43 bugger2-linux wpa_supplicant[473]: WMM AC: Missing IEs
+Aug 10 13:21:43 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Aug 10 13:21:43 bugger2-linux wpa_supplicant[473]: wlan0: WPA: Key negotiation completed with 88:1f:a1:41:1e:90 [PTK=CCMP GTK=CCMP]
+Aug 10 13:21:43 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-CONNECTED - Connection to 88:1f:a1:41:1e:90 completed [id=0 id_str=]
+Aug 10 13:21:43 bugger2-linux NetworkManager[245]: <info>  [1502338903.6033] device (wlan0): supplicant interface state: associating -> completed
+Aug 10 13:21:44 bugger2-linux wpa_supplicant[473]: wlan0: CTRL-EVENT-DISCONNECTED bssid=88:1f:a1:41:1e:90 reason=0
+Aug 10 13:21:44 bugger2-linux kernel: mwifiex_pcie 0000:01:00.0: info: successfully disconnected from 88:1f:a1:41:1e:90: reason code 0
+Aug 10 13:21:44 bugger2-linux NetworkManager[245]: <info>  [1502338904.7101] device (wlan0): supplicant interface state: completed -> disconnected
+Aug 10 13:21:44 bugger2-linux NetworkManager[245]: <info>  [1502338904.8057] device (wlan0): supplicant interface state: disconnected -> scanning
+Aug 10 13:21:46 bugger2-linux dhclient[13677]: XMT: Info-Request on wlan0, interval 8170ms.
